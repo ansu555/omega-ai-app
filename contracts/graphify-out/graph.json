@@ -1,0 +1,324 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "config_export_pattern",
+        "label": "Chain Registry Configuration Aggregation",
+        "nodes": [
+          "config_ts",
+          "contract_addresses_export",
+          "dex_routers_export",
+          "token_addresses_export"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.8,
+        "source_file": "contracts/config.ts"
+      },
+      {
+        "id": "contract_config_community",
+        "label": "Contract Config",
+        "nodes": [
+          "config_ts"
+        ],
+        "relation": "implement",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "contracts/graphify-out/GRAPH_REPORT.md"
+      },
+      {
+        "id": "contract_exports_community",
+        "label": "Contract Exports",
+        "nodes": [
+          "contracts_index_ts"
+        ],
+        "relation": "implement",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "contracts/graphify-out/GRAPH_REPORT.md"
+      },
+      {
+        "id": "abi_exports_community",
+        "label": "ABI Exports",
+        "nodes": [
+          "abis_index_ts"
+        ],
+        "relation": "implement",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "contracts/graphify-out/GRAPH_REPORT.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "config.ts",
+      "file_type": "code",
+      "source_file": "contracts/config.ts",
+      "source_location": "L1",
+      "id": "contracts_config_ts",
+      "community": 1,
+      "norm_label": "config.ts"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "index.ts",
+      "source_location": "L1",
+      "id": "index_ts",
+      "community": 2,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "abis/index.ts",
+      "source_location": "L1",
+      "id": "abis_index_ts",
+      "community": 3,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "contracts/config.ts",
+      "file_type": "code",
+      "source_file": "contracts/config.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "config_ts",
+      "community": 0,
+      "norm_label": "contracts/config.ts"
+    },
+    {
+      "label": "CONTRACT_ADDRESSES",
+      "file_type": "code",
+      "source_file": "contracts/config.ts",
+      "source_location": "17-19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "contract_addresses_export",
+      "community": 0,
+      "norm_label": "contract_addresses"
+    },
+    {
+      "label": "DEX_ROUTERS",
+      "file_type": "code",
+      "source_file": "contracts/config.ts",
+      "source_location": "26-30",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "dex_routers_export",
+      "community": 0,
+      "norm_label": "dex_routers"
+    },
+    {
+      "label": "TRADER_JOE_V2",
+      "file_type": "code",
+      "source_file": "contracts/config.ts",
+      "source_location": "32-35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "trader_joe_v2_export",
+      "community": 0,
+      "norm_label": "trader_joe_v2"
+    },
+    {
+      "label": "TOKEN_ADDRESSES",
+      "file_type": "code",
+      "source_file": "contracts/config.ts",
+      "source_location": "40-58",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "token_addresses_export",
+      "community": 0,
+      "norm_label": "token_addresses"
+    },
+    {
+      "label": "WAVAX_ADDRESS",
+      "file_type": "code",
+      "source_file": "contracts/config.ts",
+      "source_location": "37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wavax_address_export",
+      "community": 0,
+      "norm_label": "wavax_address"
+    },
+    {
+      "label": "Backward-Compatibility Re-Export Shim",
+      "file_type": "code",
+      "source_file": "contracts/config.ts",
+      "source_location": "1-6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "config_shim_pattern",
+      "community": 0,
+      "norm_label": "backward-compatibility re-export shim"
+    },
+    {
+      "label": "contracts/index.ts",
+      "file_type": "code",
+      "source_file": "contracts/index.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "index_ts_contracts",
+      "community": 4,
+      "norm_label": "contracts/index.ts"
+    },
+    {
+      "label": "index.ts (Contract Exports)",
+      "file_type": "code",
+      "source_file": "contracts/index.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "contracts_index_ts",
+      "community": 5,
+      "norm_label": "index.ts (contract exports)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contracts/config.ts",
+      "source_location": "15-19",
+      "weight": 1.0,
+      "_src": "config_ts",
+      "_tgt": "contract_addresses_export",
+      "source": "config_ts",
+      "target": "contract_addresses_export"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contracts/config.ts",
+      "source_location": "24-30",
+      "weight": 1.0,
+      "_src": "config_ts",
+      "_tgt": "dex_routers_export",
+      "source": "config_ts",
+      "target": "dex_routers_export"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contracts/config.ts",
+      "source_location": "32-35",
+      "weight": 1.0,
+      "_src": "config_ts",
+      "_tgt": "trader_joe_v2_export",
+      "source": "config_ts",
+      "target": "trader_joe_v2_export"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contracts/config.ts",
+      "source_location": "40-58",
+      "weight": 1.0,
+      "_src": "config_ts",
+      "_tgt": "token_addresses_export",
+      "source": "config_ts",
+      "target": "token_addresses_export"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contracts/config.ts",
+      "source_location": "37",
+      "weight": 1.0,
+      "_src": "config_ts",
+      "_tgt": "wavax_address_export",
+      "source": "config_ts",
+      "target": "wavax_address_export"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contracts/config.ts",
+      "source_location": "1-6",
+      "weight": 1.0,
+      "_src": "config_ts",
+      "_tgt": "config_shim_pattern",
+      "source": "config_ts",
+      "target": "config_shim_pattern"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "config_export_pattern",
+      "label": "Chain Registry Configuration Aggregation",
+      "nodes": [
+        "config_ts",
+        "contract_addresses_export",
+        "dex_routers_export",
+        "token_addresses_export"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "contracts/config.ts"
+    },
+    {
+      "id": "contract_config_community",
+      "label": "Contract Config",
+      "nodes": [
+        "config_ts"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contracts/graphify-out/GRAPH_REPORT.md"
+    },
+    {
+      "id": "contract_exports_community",
+      "label": "Contract Exports",
+      "nodes": [
+        "contracts_index_ts"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contracts/graphify-out/GRAPH_REPORT.md"
+    },
+    {
+      "id": "abi_exports_community",
+      "label": "ABI Exports",
+      "nodes": [
+        "abis_index_ts"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "contracts/graphify-out/GRAPH_REPORT.md"
+    }
+  ]
+}
