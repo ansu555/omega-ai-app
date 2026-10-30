@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/0g-contract/node_modules
+/contract/node_modules
+/contract/cache
+/contract/artifacts
+/.venv
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# graphify outputs - ignore extraction cache folders everywhere
+**/graphify-out/cache/
+.graphify-runs/*/cache/
+
+# local AXL demo/tooling artifacts
+.axl/
+.tooling/
+.gocache/
+.gopath/
