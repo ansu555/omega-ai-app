@@ -1,0 +1,40 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "wallet-analysis.ts",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/lib/api/wallet-analysis.ts",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_lib_api_wallet_analysis_ts",
+      "community": 0,
+      "norm_label": "wallet-analysis.ts"
+    },
+    {
+      "label": "analyzeWallet()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/lib/api/wallet-analysis.ts",
+      "source_location": "L5",
+      "id": "wallet_analysis_analyzewallet",
+      "community": 0,
+      "norm_label": "analyzewallet()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/lib/api/wallet-analysis.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_lib_api_wallet_analysis_ts",
+      "_tgt": "wallet_analysis_analyzewallet",
+      "source": "home_anik2003_documents_omeswap_lib_api_wallet_analysis_ts",
+      "target": "wallet_analysis_analyzewallet",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

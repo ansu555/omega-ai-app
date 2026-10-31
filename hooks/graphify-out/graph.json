@@ -1,0 +1,343 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "index.ts",
+      "source_location": "L1",
+      "id": "index_ts",
+      "community": 8,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "use-avalanche-wallet.tsx",
+      "file_type": "code",
+      "source_file": "use-avalanche-wallet.tsx",
+      "source_location": "L1",
+      "id": "use_avalanche_wallet_tsx",
+      "community": 0,
+      "norm_label": "use-avalanche-wallet.tsx"
+    },
+    {
+      "label": "useAvalancheWallet()",
+      "file_type": "code",
+      "source_file": "use-avalanche-wallet.tsx",
+      "source_location": "L3",
+      "id": "use_avalanche_wallet_useavalanchewallet",
+      "community": 0,
+      "norm_label": "useavalanchewallet()"
+    },
+    {
+      "label": "use-custom-address-analysis.tsx",
+      "file_type": "code",
+      "source_file": "use-custom-address-analysis.tsx",
+      "source_location": "L1",
+      "id": "use_custom_address_analysis_tsx",
+      "community": 1,
+      "norm_label": "use-custom-address-analysis.tsx"
+    },
+    {
+      "label": "useCustomAddressAnalysis()",
+      "file_type": "code",
+      "source_file": "use-custom-address-analysis.tsx",
+      "source_location": "L19",
+      "id": "use_custom_address_analysis_usecustomaddressanalysis",
+      "community": 1,
+      "norm_label": "usecustomaddressanalysis()"
+    },
+    {
+      "label": "use-dex-aggregator.tsx",
+      "file_type": "code",
+      "source_file": "use-dex-aggregator.tsx",
+      "source_location": "L1",
+      "id": "use_dex_aggregator_tsx",
+      "community": 2,
+      "norm_label": "use-dex-aggregator.tsx"
+    },
+    {
+      "label": "useDexAggregator()",
+      "file_type": "code",
+      "source_file": "use-dex-aggregator.tsx",
+      "source_location": "L133",
+      "id": "use_dex_aggregator_usedexaggregator",
+      "community": 2,
+      "norm_label": "usedexaggregator()"
+    },
+    {
+      "label": "use-dex-pools.tsx",
+      "file_type": "code",
+      "source_file": "use-dex-pools.tsx",
+      "source_location": "L1",
+      "id": "use_dex_pools_tsx",
+      "community": 3,
+      "norm_label": "use-dex-pools.tsx"
+    },
+    {
+      "label": "useDexPools()",
+      "file_type": "code",
+      "source_file": "use-dex-pools.tsx",
+      "source_location": "L46",
+      "id": "use_dex_pools_usedexpools",
+      "community": 3,
+      "norm_label": "usedexpools()"
+    },
+    {
+      "label": "use-dex-swap.tsx",
+      "file_type": "code",
+      "source_file": "use-dex-swap.tsx",
+      "source_location": "L1",
+      "id": "use_dex_swap_tsx",
+      "community": 4,
+      "norm_label": "use-dex-swap.tsx"
+    },
+    {
+      "label": "useDexSwap()",
+      "file_type": "code",
+      "source_file": "use-dex-swap.tsx",
+      "source_location": "L17",
+      "id": "use_dex_swap_usedexswap",
+      "community": 4,
+      "norm_label": "usedexswap()"
+    },
+    {
+      "label": "use-liquidity.tsx",
+      "file_type": "code",
+      "source_file": "use-liquidity.tsx",
+      "source_location": "L1",
+      "id": "use_liquidity_tsx",
+      "community": 5,
+      "norm_label": "use-liquidity.tsx"
+    },
+    {
+      "label": "useLiquidity()",
+      "file_type": "code",
+      "source_file": "use-liquidity.tsx",
+      "source_location": "L16",
+      "id": "use_liquidity_useliquidity",
+      "community": 5,
+      "norm_label": "useliquidity()"
+    },
+    {
+      "label": "use-mobile.tsx",
+      "file_type": "code",
+      "source_file": "use-mobile.tsx",
+      "source_location": "L1",
+      "id": "use_mobile_tsx",
+      "community": 6,
+      "norm_label": "use-mobile.tsx"
+    },
+    {
+      "label": "useIsMobile()",
+      "file_type": "code",
+      "source_file": "use-mobile.tsx",
+      "source_location": "L5",
+      "id": "use_mobile_useismobile",
+      "community": 6,
+      "norm_label": "useismobile()"
+    },
+    {
+      "label": "use-pool-details.tsx",
+      "file_type": "code",
+      "source_file": "use-pool-details.tsx",
+      "source_location": "L1",
+      "id": "use_pool_details_tsx",
+      "community": 7,
+      "norm_label": "use-pool-details.tsx"
+    },
+    {
+      "label": "usePoolDetails()",
+      "file_type": "code",
+      "source_file": "use-pool-details.tsx",
+      "source_location": "L20",
+      "id": "use_pool_details_usepooldetails",
+      "community": 7,
+      "norm_label": "usepooldetails()"
+    },
+    {
+      "label": "use-wallet-analysis-query.tsx",
+      "file_type": "code",
+      "source_file": "use-wallet-analysis-query.tsx",
+      "source_location": "L1",
+      "id": "use_wallet_analysis_query_tsx",
+      "community": 0,
+      "norm_label": "use-wallet-analysis-query.tsx"
+    },
+    {
+      "label": "useWalletAnalysisQuery()",
+      "file_type": "code",
+      "source_file": "use-wallet-analysis-query.tsx",
+      "source_location": "L22",
+      "id": "use_wallet_analysis_query_usewalletanalysisquery",
+      "community": 0,
+      "norm_label": "usewalletanalysisquery()"
+    },
+    {
+      "label": "use-wallet-analysis.tsx",
+      "file_type": "code",
+      "source_file": "use-wallet-analysis.tsx",
+      "source_location": "L1",
+      "id": "use_wallet_analysis_tsx",
+      "community": 0,
+      "norm_label": "use-wallet-analysis.tsx"
+    },
+    {
+      "label": "useWalletAnalysis()",
+      "file_type": "code",
+      "source_file": "use-wallet-analysis.tsx",
+      "source_location": "L23",
+      "id": "use_wallet_analysis_usewalletanalysis",
+      "community": 0,
+      "norm_label": "usewalletanalysis()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "use-avalanche-wallet.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "use_avalanche_wallet_tsx",
+      "_tgt": "use_avalanche_wallet_useavalanchewallet",
+      "source": "use_avalanche_wallet_tsx",
+      "target": "use_avalanche_wallet_useavalanchewallet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "use-wallet-analysis-query.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "use_wallet_analysis_query_usewalletanalysisquery",
+      "_tgt": "use_avalanche_wallet_useavalanchewallet",
+      "source": "use_avalanche_wallet_useavalanchewallet",
+      "target": "use_wallet_analysis_query_usewalletanalysisquery"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "use-wallet-analysis.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_src": "use_wallet_analysis_usewalletanalysis",
+      "_tgt": "use_avalanche_wallet_useavalanchewallet",
+      "source": "use_avalanche_wallet_useavalanchewallet",
+      "target": "use_wallet_analysis_usewalletanalysis"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "use-custom-address-analysis.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "use_custom_address_analysis_tsx",
+      "_tgt": "use_custom_address_analysis_usecustomaddressanalysis",
+      "source": "use_custom_address_analysis_tsx",
+      "target": "use_custom_address_analysis_usecustomaddressanalysis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "use-dex-aggregator.tsx",
+      "source_location": "L133",
+      "weight": 1.0,
+      "_src": "use_dex_aggregator_tsx",
+      "_tgt": "use_dex_aggregator_usedexaggregator",
+      "source": "use_dex_aggregator_tsx",
+      "target": "use_dex_aggregator_usedexaggregator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "use-dex-pools.tsx",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_src": "use_dex_pools_tsx",
+      "_tgt": "use_dex_pools_usedexpools",
+      "source": "use_dex_pools_tsx",
+      "target": "use_dex_pools_usedexpools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "use-dex-swap.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "use_dex_swap_tsx",
+      "_tgt": "use_dex_swap_usedexswap",
+      "source": "use_dex_swap_tsx",
+      "target": "use_dex_swap_usedexswap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "use-liquidity.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "use_liquidity_tsx",
+      "_tgt": "use_liquidity_useliquidity",
+      "source": "use_liquidity_tsx",
+      "target": "use_liquidity_useliquidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "use-mobile.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "use_mobile_tsx",
+      "_tgt": "use_mobile_useismobile",
+      "source": "use_mobile_tsx",
+      "target": "use_mobile_useismobile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "use-pool-details.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "use_pool_details_tsx",
+      "_tgt": "use_pool_details_usepooldetails",
+      "source": "use_pool_details_tsx",
+      "target": "use_pool_details_usepooldetails",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "use-wallet-analysis-query.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_src": "use_wallet_analysis_query_tsx",
+      "_tgt": "use_wallet_analysis_query_usewalletanalysisquery",
+      "source": "use_wallet_analysis_query_tsx",
+      "target": "use_wallet_analysis_query_usewalletanalysisquery",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "use-wallet-analysis.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "use_wallet_analysis_tsx",
+      "_tgt": "use_wallet_analysis_usewalletanalysis",
+      "source": "use_wallet_analysis_tsx",
+      "target": "use_wallet_analysis_usewalletanalysis",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
