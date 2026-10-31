@@ -1,0 +1,148 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "AuditScoreCard.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/AuditScoreCard.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_auditscorecard_tsx",
+      "community": 1,
+      "norm_label": "auditscorecard.tsx"
+    },
+    {
+      "label": "AuditScoreCard()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/AuditScoreCard.tsx",
+      "source_location": "L12",
+      "id": "auditscorecard_auditscorecard",
+      "community": 1,
+      "norm_label": "auditscorecard()"
+    },
+    {
+      "label": "FinancialAuditChart.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/FinancialAuditChart.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_financialauditchart_tsx",
+      "community": 0,
+      "norm_label": "financialauditchart.tsx"
+    },
+    {
+      "label": "formatPrice()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/FinancialAuditChart.tsx",
+      "source_location": "L60",
+      "id": "financialauditchart_formatprice",
+      "community": 0,
+      "norm_label": "formatprice()"
+    },
+    {
+      "label": "formatDate()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/FinancialAuditChart.tsx",
+      "source_location": "L67",
+      "id": "financialauditchart_formatdate",
+      "community": 0,
+      "norm_label": "formatdate()"
+    },
+    {
+      "label": "formatNumber()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/FinancialAuditChart.tsx",
+      "source_location": "L72",
+      "id": "financialauditchart_formatnumber",
+      "community": 0,
+      "norm_label": "formatnumber()"
+    },
+    {
+      "label": "FundamentalAnalysis.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/FundamentalAnalysis.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_fundamentalanalysis_tsx",
+      "community": 2,
+      "norm_label": "fundamentalanalysis.tsx"
+    },
+    {
+      "label": "RadarChart.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/RadarChart.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_radarchart_tsx",
+      "community": 3,
+      "norm_label": "radarchart.tsx"
+    },
+    {
+      "label": "TechnicalAnalysis.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/TechnicalAnalysis.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_technicalanalysis_tsx",
+      "community": 4,
+      "norm_label": "technicalanalysis.tsx"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/index.ts",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_index_ts",
+      "community": 5,
+      "norm_label": "index.ts"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/AuditScoreCard.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_auditscorecard_tsx",
+      "_tgt": "auditscorecard_auditscorecard",
+      "source": "home_anik2003_documents_omeswap_components_token_auditscorecard_tsx",
+      "target": "auditscorecard_auditscorecard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/FinancialAuditChart.tsx",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_financialauditchart_tsx",
+      "_tgt": "financialauditchart_formatprice",
+      "source": "home_anik2003_documents_omeswap_components_token_financialauditchart_tsx",
+      "target": "financialauditchart_formatprice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/FinancialAuditChart.tsx",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_financialauditchart_tsx",
+      "_tgt": "financialauditchart_formatdate",
+      "source": "home_anik2003_documents_omeswap_components_token_financialauditchart_tsx",
+      "target": "financialauditchart_formatdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token/FinancialAuditChart.tsx",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_financialauditchart_tsx",
+      "_tgt": "financialauditchart_formatnumber",
+      "source": "home_anik2003_documents_omeswap_components_token_financialauditchart_tsx",
+      "target": "financialauditchart_formatnumber",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

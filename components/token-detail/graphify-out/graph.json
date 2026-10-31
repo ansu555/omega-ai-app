@@ -1,0 +1,289 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "CategoryTabs.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/CategoryTabs.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_categorytabs_tsx",
+      "community": 5,
+      "norm_label": "categorytabs.tsx"
+    },
+    {
+      "label": "FundamentalAnalysis.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/FundamentalAnalysis.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_fundamentalanalysis_tsx",
+      "community": 6,
+      "norm_label": "fundamentalanalysis.tsx"
+    },
+    {
+      "label": "MarketMetrics.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/MarketMetrics.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_marketmetrics_tsx",
+      "community": 7,
+      "norm_label": "marketmetrics.tsx"
+    },
+    {
+      "label": "PriceChart.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/PriceChart.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_pricechart_tsx",
+      "community": 0,
+      "norm_label": "pricechart.tsx"
+    },
+    {
+      "label": "generateChartData()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/PriceChart.tsx",
+      "source_location": "L19",
+      "id": "pricechart_generatechartdata",
+      "community": 0,
+      "norm_label": "generatechartdata()"
+    },
+    {
+      "label": "formatPrice()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/PriceChart.tsx",
+      "source_location": "L61",
+      "id": "pricechart_formatprice",
+      "community": 0,
+      "norm_label": "formatprice()"
+    },
+    {
+      "label": "RadarChart.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/RadarChart.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_radarchart_tsx",
+      "community": 1,
+      "norm_label": "radarchart.tsx"
+    },
+    {
+      "label": "getScoreColor()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/RadarChart.tsx",
+      "source_location": "L16",
+      "id": "radarchart_getscorecolor",
+      "community": 1,
+      "norm_label": "getscorecolor()"
+    },
+    {
+      "label": "getPoint()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/RadarChart.tsx",
+      "source_location": "L37",
+      "id": "radarchart_getpoint",
+      "community": 1,
+      "norm_label": "getpoint()"
+    },
+    {
+      "label": "ScoreCard.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/ScoreCard.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_scorecard_tsx",
+      "community": 2,
+      "norm_label": "scorecard.tsx"
+    },
+    {
+      "label": "getScoreColor()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/ScoreCard.tsx",
+      "source_location": "L20",
+      "id": "scorecard_getscorecolor",
+      "community": 2,
+      "norm_label": "getscorecolor()"
+    },
+    {
+      "label": "ScoreCard()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/ScoreCard.tsx",
+      "source_location": "L29",
+      "id": "scorecard_scorecard",
+      "community": 2,
+      "norm_label": "scorecard()"
+    },
+    {
+      "label": "SecurityAnalysis.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/SecurityAnalysis.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_securityanalysis_tsx",
+      "community": 3,
+      "norm_label": "securityanalysis.tsx"
+    },
+    {
+      "label": "SecurityAnalysis()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/SecurityAnalysis.tsx",
+      "source_location": "L72",
+      "id": "securityanalysis_securityanalysis",
+      "community": 3,
+      "norm_label": "securityanalysis()"
+    },
+    {
+      "label": "SocialAnalysis.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/SocialAnalysis.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_socialanalysis_tsx",
+      "community": 8,
+      "norm_label": "socialanalysis.tsx"
+    },
+    {
+      "label": "StatsCard.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/StatsCard.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_statscard_tsx",
+      "community": 4,
+      "norm_label": "statscard.tsx"
+    },
+    {
+      "label": "StatsCard()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/StatsCard.tsx",
+      "source_location": "L10",
+      "id": "statscard_statscard",
+      "community": 4,
+      "norm_label": "statscard()"
+    },
+    {
+      "label": "TechnicalAnalysis.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/TechnicalAnalysis.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_technicalanalysis_tsx",
+      "community": 9,
+      "norm_label": "technicalanalysis.tsx"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/index.ts",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_token_detail_index_ts",
+      "community": 10,
+      "norm_label": "index.ts"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/PriceChart.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_detail_pricechart_tsx",
+      "_tgt": "pricechart_generatechartdata",
+      "source": "home_anik2003_documents_omeswap_components_token_detail_pricechart_tsx",
+      "target": "pricechart_generatechartdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/PriceChart.tsx",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_detail_pricechart_tsx",
+      "_tgt": "pricechart_formatprice",
+      "source": "home_anik2003_documents_omeswap_components_token_detail_pricechart_tsx",
+      "target": "pricechart_formatprice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/RadarChart.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_detail_radarchart_tsx",
+      "_tgt": "radarchart_getscorecolor",
+      "source": "home_anik2003_documents_omeswap_components_token_detail_radarchart_tsx",
+      "target": "radarchart_getscorecolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/RadarChart.tsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_detail_radarchart_tsx",
+      "_tgt": "radarchart_getpoint",
+      "source": "home_anik2003_documents_omeswap_components_token_detail_radarchart_tsx",
+      "target": "radarchart_getpoint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/ScoreCard.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_detail_scorecard_tsx",
+      "_tgt": "scorecard_getscorecolor",
+      "source": "home_anik2003_documents_omeswap_components_token_detail_scorecard_tsx",
+      "target": "scorecard_getscorecolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/ScoreCard.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_detail_scorecard_tsx",
+      "_tgt": "scorecard_scorecard",
+      "source": "home_anik2003_documents_omeswap_components_token_detail_scorecard_tsx",
+      "target": "scorecard_scorecard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/ScoreCard.tsx",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_src": "scorecard_scorecard",
+      "_tgt": "scorecard_getscorecolor",
+      "source": "scorecard_getscorecolor",
+      "target": "scorecard_scorecard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/SecurityAnalysis.tsx",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_detail_securityanalysis_tsx",
+      "_tgt": "securityanalysis_securityanalysis",
+      "source": "home_anik2003_documents_omeswap_components_token_detail_securityanalysis_tsx",
+      "target": "securityanalysis_securityanalysis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/token-detail/StatsCard.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_token_detail_statscard_tsx",
+      "_tgt": "statscard_statscard",
+      "source": "home_anik2003_documents_omeswap_components_token_detail_statscard_tsx",
+      "target": "statscard_statscard",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
