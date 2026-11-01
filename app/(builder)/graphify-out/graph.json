@@ -1,0 +1,91 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/(builder)/layout.tsx",
+      "source_location": "L1",
+      "id": "app_builder_layout_tsx",
+      "community": 1,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "BuilderLayout()",
+      "file_type": "code",
+      "source_file": "app/(builder)/layout.tsx",
+      "source_location": "L10",
+      "id": "layout_builderlayout",
+      "community": 1,
+      "norm_label": "builderlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/(builder)/agent-builder/page.tsx",
+      "source_location": "L1",
+      "id": "app_builder_agent_builder_page_tsx",
+      "community": 0,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "resolveNodeType()",
+      "file_type": "code",
+      "source_file": "app/(builder)/agent-builder/page.tsx",
+      "source_location": "L50",
+      "id": "page_resolvenodetype",
+      "community": 0,
+      "norm_label": "resolvenodetype()"
+    },
+    {
+      "label": "AgentBuilderPage()",
+      "file_type": "code",
+      "source_file": "app/(builder)/agent-builder/page.tsx",
+      "source_location": "L66",
+      "id": "page_agentbuilderpage",
+      "community": 0,
+      "norm_label": "agentbuilderpage()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(builder)/layout.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "app_builder_layout_tsx",
+      "_tgt": "layout_builderlayout",
+      "source": "app_builder_layout_tsx",
+      "target": "layout_builderlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(builder)/agent-builder/page.tsx",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_src": "app_builder_agent_builder_page_tsx",
+      "_tgt": "page_resolvenodetype",
+      "source": "app_builder_agent_builder_page_tsx",
+      "target": "page_resolvenodetype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(builder)/agent-builder/page.tsx",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_src": "app_builder_agent_builder_page_tsx",
+      "_tgt": "page_agentbuilderpage",
+      "source": "app_builder_agent_builder_page_tsx",
+      "target": "page_agentbuilderpage",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
