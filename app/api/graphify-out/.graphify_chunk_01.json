@@ -1,0 +1,1250 @@
+{
+  "nodes": [
+    {
+      "id": "agent_route_post",
+      "label": "POST (agent builder agent route)",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/agent/route.ts",
+      "source_location": "POST",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agent_build_system_prompt",
+      "label": "buildSystemPrompt()",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/agent/route.ts",
+      "source_location": "import",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agent_tools",
+      "label": "AGENT_TOOLS",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/agent/route.ts",
+      "source_location": "import",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "openrouter_chat_completions_api",
+      "label": "OpenRouter Chat Completions API",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/agent/route.ts",
+      "source_location": "https://openrouter.ai/api/v1/chat/completions",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "chat_route_post",
+      "label": "POST (agent builder chat route)",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "POST",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "chat_get_openai_client",
+      "label": "getOpenAIClient()",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "function getOpenAIClient",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "chat_block_parameter_schema",
+      "label": "BlockParameterSchema",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "const BlockParameterSchema",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "chat_agent_block_schema",
+      "label": "AgentBlockSchema",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "const AgentBlockSchema",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "chat_block_connection_schema",
+      "label": "BlockConnectionSchema",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "const BlockConnectionSchema",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "chat_response_schema",
+      "label": "ChatResponseSchema",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "const ChatResponseSchema",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "chat_openai_client",
+      "label": "OpenAI SDK Client",
+      "file_type": "code",
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "new OpenAI",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crypto_get_route",
+      "label": "GET (crypto route)",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "export async function GET",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crypto_generate_sparkline_data",
+      "label": "generateSparklineData()",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "const generateSparklineData",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crypto_transform_coingecko_data",
+      "label": "transformCoinGeckoData()",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "const transformCoinGeckoData",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crypto_transform_cmc_data",
+      "label": "transformCMCData()",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "const transformCMCData",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crypto_transform_geckoterminal_pools",
+      "label": "transformGeckoTerminalPools()",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "const transformGeckoTerminalPools",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crypto_fetch_from_coingecko",
+      "label": "fetchFromCoinGecko()",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "async function fetchFromCoinGecko",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crypto_fetch_pools_from_geckoterminal",
+      "label": "fetchPoolsFromGeckoTerminal()",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "async function fetchPoolsFromGeckoTerminal",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crypto_fetch_from_coinmarketcap",
+      "label": "fetchFromCoinMarketCap()",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "async function fetchFromCoinMarketCap",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crypto_fetch_from_kryll",
+      "label": "fetchFromKryll()",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "async function fetchFromKryll",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "crypto_transform_kryll_data",
+      "label": "transformKryllData()",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "const transformKryllData",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "coingecko_markets_api",
+      "label": "CoinGecko Markets API",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "https://api.coingecko.com/api/v3/coins/markets",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "coinmarketcap_listings_api",
+      "label": "CoinMarketCap Listings API",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "geckoterminal_avax_pools_api",
+      "label": "GeckoTerminal AVAX Pools API",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "https://api.geckoterminal.com/api/v2/networks/avax/pools",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "kryll_xray_list_api",
+      "label": "Kryll X-Ray List API",
+      "file_type": "code",
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "https://dapi.kryll.io/xray/list",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_cmc_quote",
+      "label": "CMCQuote",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface CMCQuote",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_cmc_cryptocurrency",
+      "label": "CMCCryptocurrency",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface CMCCryptocurrency",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_cmc_response",
+      "label": "CMCResponse",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface CMCResponse",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_coingecko_market",
+      "label": "CoinGeckoMarket",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface CoinGeckoMarket",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_geckoterminal_pool",
+      "label": "GeckoTerminalPool",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface GeckoTerminalPool",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_geckoterminal_token",
+      "label": "GeckoTerminalToken",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface GeckoTerminalToken",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_geckoterminal_response",
+      "label": "GeckoTerminalResponse",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface GeckoTerminalResponse",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_token_row",
+      "label": "TokenRow",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface TokenRow",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_pool_row",
+      "label": "PoolRow",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface PoolRow",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_summary_item",
+      "label": "SummaryItem",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface SummaryItem",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_metric",
+      "label": "Metric",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface Metric",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_kryll_token",
+      "label": "KryllToken",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface KryllToken",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_kryll_response",
+      "label": "KryllResponse",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface KryllResponse",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_kryll_audit_data",
+      "label": "KryllAuditData",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface KryllAuditData",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_kryll_audit_response",
+      "label": "KryllAuditResponse",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface KryllAuditResponse",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "types_crypto_api_response",
+      "label": "CryptoAPIResponse",
+      "file_type": "code",
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "interface CryptoAPIResponse",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graph_report_doc",
+      "label": "GRAPH_REPORT.md",
+      "file_type": "document",
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graph_report_community_crypto_data_route",
+      "label": "Community: Crypto Data Route",
+      "file_type": "document",
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Community 0",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graph_report_community_agent_builder_routes",
+      "label": "Community: Agent Builder Routes",
+      "file_type": "document",
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Community 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graph_report_community_cmc_transform_helpers",
+      "label": "Community: CMC Transform Helpers",
+      "file_type": "document",
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Community 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graph_report_bridge_get_to_transform_cmc",
+      "label": "Insight: GET() bridges to transformCMCData()",
+      "file_type": "document",
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Surprising Connections",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graph_report_community_crypto_types",
+      "label": "Community: Crypto Types",
+      "file_type": "document",
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Community 3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "agent_route_post",
+      "target": "agent_build_system_prompt",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/agent/route.ts",
+      "source_location": "POST",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_route_post",
+      "target": "agent_tools",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/agent/route.ts",
+      "source_location": "POST",
+      "weight": 1.0
+    },
+    {
+      "source": "agent_route_post",
+      "target": "openrouter_chat_completions_api",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/agent/route.ts",
+      "source_location": "fetch openrouter",
+      "weight": 1.0
+    },
+    {
+      "source": "chat_route_post",
+      "target": "chat_get_openai_client",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "POST",
+      "weight": 1.0
+    },
+    {
+      "source": "chat_route_post",
+      "target": "chat_response_schema",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "ChatResponseSchema.parse",
+      "weight": 1.0
+    },
+    {
+      "source": "chat_route_post",
+      "target": "openrouter_chat_completions_api",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "openai.chat.completions.create",
+      "weight": 1.0
+    },
+    {
+      "source": "chat_get_openai_client",
+      "target": "chat_openai_client",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "new OpenAI",
+      "weight": 1.0
+    },
+    {
+      "source": "chat_get_openai_client",
+      "target": "openrouter_chat_completions_api",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "baseURL openrouter",
+      "weight": 1.0
+    },
+    {
+      "source": "chat_agent_block_schema",
+      "target": "chat_block_parameter_schema",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "parameters: z.array(BlockParameterSchema)",
+      "weight": 1.0
+    },
+    {
+      "source": "chat_response_schema",
+      "target": "chat_agent_block_schema",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "blocks: z.array(AgentBlockSchema)",
+      "weight": 1.0
+    },
+    {
+      "source": "chat_response_schema",
+      "target": "chat_block_connection_schema",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "connections: z.array(BlockConnectionSchema)",
+      "weight": 1.0
+    },
+    {
+      "source": "chat_route_post",
+      "target": "agent_route_post",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.86,
+      "source_file": "app/api/agent-builder/chat/route.ts",
+      "source_location": "both agent-builder POST handlers",
+      "weight": 0.86
+    },
+    {
+      "source": "crypto_transform_coingecko_data",
+      "target": "types_coingecko_market",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "(cgData: CoinGeckoMarket[])",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_transform_coingecko_data",
+      "target": "types_token_row",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "): TokenRow[]",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_transform_coingecko_data",
+      "target": "crypto_generate_sparkline_data",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "sparklineData: generateSparklineData",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_transform_cmc_data",
+      "target": "types_cmc_response",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "(cmcData: CMCResponse)",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_transform_cmc_data",
+      "target": "types_token_row",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "): TokenRow[]",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_transform_cmc_data",
+      "target": "crypto_generate_sparkline_data",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "sparklineData: generateSparklineData",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_transform_geckoterminal_pools",
+      "target": "types_geckoterminal_response",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "(gtData: GeckoTerminalResponse)",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_transform_geckoterminal_pools",
+      "target": "types_pool_row",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "): PoolRow[]",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_fetch_from_coingecko",
+      "target": "coingecko_markets_api",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "fetch CoinGecko markets",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_fetch_from_coingecko",
+      "target": "types_coingecko_market",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "Promise<CoinGeckoMarket[]>",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_fetch_pools_from_geckoterminal",
+      "target": "geckoterminal_avax_pools_api",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "fetch GeckoTerminal pools",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_fetch_pools_from_geckoterminal",
+      "target": "types_geckoterminal_response",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "Promise<GeckoTerminalResponse>",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_fetch_from_coinmarketcap",
+      "target": "coinmarketcap_listings_api",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "fetch CMC listings",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_fetch_from_coinmarketcap",
+      "target": "types_cmc_response",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "Promise<CMCResponse>",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_fetch_from_kryll",
+      "target": "kryll_xray_list_api",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "fetch Kryll X-Ray list",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_fetch_from_kryll",
+      "target": "types_kryll_response",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "const json: KryllResponse",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_fetch_from_kryll",
+      "target": "types_kryll_token",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "Promise<KryllToken[]>",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_transform_kryll_data",
+      "target": "types_kryll_token",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "(kryllData: KryllToken[])",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_transform_kryll_data",
+      "target": "types_token_row",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "): TokenRow[]",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_transform_kryll_data",
+      "target": "crypto_generate_sparkline_data",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "sparklineData: generateSparklineData",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "crypto_fetch_from_kryll",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "GET try Kryll first",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "crypto_transform_kryll_data",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "tokens = transformKryllData",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "crypto_fetch_from_coingecko",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "fallback to CoinGecko",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "crypto_transform_coingecko_data",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "tokens = transformCoinGeckoData",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "crypto_fetch_from_coinmarketcap",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "fallback to CoinMarketCap",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "crypto_transform_cmc_data",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "tokens = transformCMCData",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "crypto_fetch_pools_from_geckoterminal",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "fetch pools",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "crypto_transform_geckoterminal_pools",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "pools = transformGeckoTerminalPools",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "types_metric",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "const metrics: Metric[]",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "types_summary_item",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "const gainers/losers/trending: SummaryItem[]",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_get_route",
+      "target": "types_crypto_api_response",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "const response: CryptoAPIResponse",
+      "weight": 1.0
+    },
+    {
+      "source": "types_cmc_response",
+      "target": "types_cmc_cryptocurrency",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "data: CMCCryptocurrency[]",
+      "weight": 1.0
+    },
+    {
+      "source": "types_cmc_cryptocurrency",
+      "target": "types_cmc_quote",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "quote.USD: CMCQuote",
+      "weight": 1.0
+    },
+    {
+      "source": "types_geckoterminal_response",
+      "target": "types_geckoterminal_pool",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "data: GeckoTerminalPool[]",
+      "weight": 1.0
+    },
+    {
+      "source": "types_geckoterminal_response",
+      "target": "types_geckoterminal_token",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "included?: GeckoTerminalToken[]",
+      "weight": 1.0
+    },
+    {
+      "source": "types_kryll_response",
+      "target": "types_kryll_token",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "items: KryllToken[]",
+      "weight": 1.0
+    },
+    {
+      "source": "types_kryll_audit_response",
+      "target": "types_kryll_audit_data",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "data: KryllAuditData",
+      "weight": 1.0
+    },
+    {
+      "source": "types_crypto_api_response",
+      "target": "types_token_row",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "tokens: TokenRow[]",
+      "weight": 1.0
+    },
+    {
+      "source": "types_crypto_api_response",
+      "target": "types_pool_row",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "pools?: PoolRow[]",
+      "weight": 1.0
+    },
+    {
+      "source": "types_crypto_api_response",
+      "target": "types_summary_item",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "gainers/losers/trending?: SummaryItem[]",
+      "weight": 1.0
+    },
+    {
+      "source": "types_crypto_api_response",
+      "target": "types_metric",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/types.ts",
+      "source_location": "metrics?: Metric[]",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_doc",
+      "target": "crypto_get_route",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "God Nodes",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_doc",
+      "target": "chat_get_openai_client",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "God Nodes",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_doc",
+      "target": "crypto_transform_cmc_data",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "God Nodes",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_doc",
+      "target": "graph_report_community_crypto_data_route",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Communities",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_doc",
+      "target": "graph_report_community_agent_builder_routes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Communities",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_doc",
+      "target": "graph_report_community_cmc_transform_helpers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Communities",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_doc",
+      "target": "graph_report_community_crypto_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Communities",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_doc",
+      "target": "graph_report_bridge_get_to_transform_cmc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Surprising Connections",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_bridge_get_to_transform_cmc",
+      "target": "crypto_get_route",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Surprising Connections",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_bridge_get_to_transform_cmc",
+      "target": "crypto_transform_cmc_data",
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Surprising Connections",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_bridge_get_to_transform_cmc",
+      "target": "graph_report_community_crypto_data_route",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Bridges community 2 -> community 0",
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_bridge_get_to_transform_cmc",
+      "target": "graph_report_community_cmc_transform_helpers",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/graphify-out/GRAPH_REPORT.md",
+      "source_location": "Bridges community 2 -> community 0",
+      "weight": 1.0
+    },
+    {
+      "source": "crypto_fetch_from_coingecko",
+      "target": "crypto_fetch_from_coinmarketcap",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "both fetch market listings with fallback role",
+      "weight": 0.82
+    },
+    {
+      "source": "crypto_transform_coingecko_data",
+      "target": "crypto_transform_kryll_data",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.79,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "both map upstream token payloads to TokenRow",
+      "weight": 0.79
+    },
+    {
+      "source": "crypto_transform_cmc_data",
+      "target": "crypto_transform_coingecko_data",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.81,
+      "source_file": "app/api/crypto/route.ts",
+      "source_location": "both normalize market-provider payloads to TokenRow",
+      "weight": 0.81
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "crypto_data_source_fallback_chain",
+      "label": "Crypto Token Source Fallback Chain",
+      "nodes": [
+        "crypto_get_route",
+        "crypto_fetch_from_kryll",
+        "crypto_fetch_from_coingecko",
+        "crypto_fetch_from_coinmarketcap"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts"
+    },
+    {
+      "id": "crypto_sparkline_transform_family",
+      "label": "Sparkline-Driven Token Transformers",
+      "nodes": [
+        "crypto_generate_sparkline_data",
+        "crypto_transform_coingecko_data",
+        "crypto_transform_cmc_data",
+        "crypto_transform_kryll_data"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/crypto/route.ts"
+    },
+    {
+      "id": "agent_builder_chat_schema_validation_stack",
+      "label": "Agent Builder Chat Schema Validation Stack",
+      "nodes": [
+        "chat_block_parameter_schema",
+        "chat_agent_block_schema",
+        "chat_block_connection_schema",
+        "chat_response_schema",
+        "chat_route_post"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/agent-builder/chat/route.ts"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
