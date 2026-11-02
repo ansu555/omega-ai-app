@@ -1,0 +1,35 @@
+{
+  "files": {
+    "code": [
+      "app/layout.tsx",
+      "app/(app)/layout.tsx",
+      "app/(app)/explore/page.tsx",
+      "app/(app)/pool/[id]/page.tsx",
+      "app/(app)/portfolio/page.tsx",
+      "app/(app)/trade/page.tsx",
+      "app/(app)/transactions/page.tsx",
+      "app/(builder)/layout.tsx",
+      "app/(builder)/agent-builder/page.tsx",
+      "app/(landing)/layout.tsx",
+      "app/(landing)/page.tsx",
+      "app/api/agent-builder/agent/route.ts",
+      "app/api/agent-builder/chat/route.ts",
+      "app/api/crypto/route.ts",
+      "app/api/crypto/types.ts"
+    ],
+    "document": [],
+    "paper": [],
+    "image": [],
+    "video": []
+  },
+  "total_files": 15,
+  "total_words": 8690,
+  "needs_graph": false,
+  "warning": "Corpus is ~8,690 words - fits in a single context window. You may not need a graph.",
+  "skipped_sensitive": [
+    "app/(app)/token/[id]/page.tsx",
+    "app/api/token/[id]/route.ts",
+    "app/api/token/[id]/analysis/route.ts"
+  ],
+  "graphifyignore_patterns": 0
+}

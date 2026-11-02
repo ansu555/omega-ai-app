@@ -1,0 +1,19 @@
+{
+  "AgentBlockNode.tsx": 1776496885.811086,
+  "AgentManager.tsx": 1776496885.8111885,
+  "AgentToolbar.tsx": 1776496885.8111885,
+  "BlockPalette.tsx": 1776496885.8111885,
+  "FlowCanvas.tsx": 1776496885.8111885,
+  "index.ts": 1776496885.8114645,
+  "canvas/AgentSidebar.tsx": 1776496885.8111885,
+  "canvas/BacktestConfigStrip.tsx": 1776496885.8114645,
+  "canvas/BacktestSummaryModal.tsx": 1776496885.8114645,
+  "canvas/ChartPanel.tsx": 1776496885.8114645,
+  "canvas/ConfigPanel.tsx": 1776496885.8114645,
+  "canvas/FlowCanvas.tsx": 1776496885.8114645,
+  "canvas/NodePalette.tsx": 1776496885.8114645,
+  "canvas/ToastContainer.tsx": 1776496885.8114645,
+  "canvas/TopBar.tsx": 1776496885.8114645,
+  "canvas/WorkflowManager.tsx": 1776496885.8114645,
+  "nodes/BaseNodeComponent.tsx": 1776496885.8114645
+}

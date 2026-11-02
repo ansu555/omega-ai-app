@@ -1,0 +1,26 @@
+---
+description: Keep `doc/recode.md` updated for every code/document upgrade with traceable metadata.
+alwaysApply: true
+---
+
+## Recode Update Rule (Compact)
+
+For **every upgrade/change** made in this repo, immediately append one log entry to `doc/recode.md`.
+
+Required fields per entry:
+- `timestamp` (ISO format: `YYYY-MM-DD HH:mm:ss Z`)
+- `agent` (`codex` | `claude` | `copilot`)
+- `github_username`
+- `branch`
+- `upgrade_paths` (comma-separated file paths changed)
+- `upgrade_summary` (1-2 short lines)
+
+Use this format:
+
+```md
+### [timestamp] agent=<codex|claude|copilot> user=<github_username> branch=<branch_name>
+- upgrade_paths: path/a.ts, path/b.ts, path/c.ts
+- upgrade_summary: what was upgraded and why.
+```
+
+This rule is identical for **Codex, Claude, and Copilot**.

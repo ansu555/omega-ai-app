@@ -1,0 +1,127 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "background-paths.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/background-paths.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_layout_background_paths_tsx",
+      "community": 3,
+      "norm_label": "background-paths.tsx"
+    },
+    {
+      "label": "footer.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/footer.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_layout_footer_tsx",
+      "community": 4,
+      "norm_label": "footer.tsx"
+    },
+    {
+      "label": "header.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/header.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_layout_header_tsx",
+      "community": 0,
+      "norm_label": "header.tsx"
+    },
+    {
+      "label": "Header()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/header.tsx",
+      "source_location": "L19",
+      "id": "header_header",
+      "community": 0,
+      "norm_label": "header()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/index.ts",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_layout_index_ts",
+      "community": 5,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "logo.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/logo.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_layout_logo_tsx",
+      "community": 1,
+      "norm_label": "logo.tsx"
+    },
+    {
+      "label": "Logo()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/logo.tsx",
+      "source_location": "L5",
+      "id": "logo_logo",
+      "community": 1,
+      "norm_label": "logo()"
+    },
+    {
+      "label": "mobile-menu.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/mobile-menu.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_layout_mobile_menu_tsx",
+      "community": 2,
+      "norm_label": "mobile-menu.tsx"
+    },
+    {
+      "label": "MobileMenu()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/mobile-menu.tsx",
+      "source_location": "L3",
+      "id": "mobile_menu_mobilemenu",
+      "community": 2,
+      "norm_label": "mobilemenu()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/header.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_layout_header_tsx",
+      "_tgt": "header_header",
+      "source": "home_anik2003_documents_omeswap_components_layout_header_tsx",
+      "target": "header_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/logo.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_layout_logo_tsx",
+      "_tgt": "logo_logo",
+      "source": "home_anik2003_documents_omeswap_components_layout_logo_tsx",
+      "target": "logo_logo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/layout/mobile-menu.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_layout_mobile_menu_tsx",
+      "_tgt": "mobile_menu_mobilemenu",
+      "source": "home_anik2003_documents_omeswap_components_layout_mobile_menu_tsx",
+      "target": "mobile_menu_mobilemenu",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

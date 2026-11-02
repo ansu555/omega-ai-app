@@ -1,0 +1,211 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "avalanche-wallet-provider.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/avalanche-wallet-provider.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_providers_avalanche_wallet_provider_tsx",
+      "community": 2,
+      "norm_label": "avalanche-wallet-provider.tsx"
+    },
+    {
+      "label": "AvalancheWalletProvider()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/avalanche-wallet-provider.tsx",
+      "source_location": "L33",
+      "id": "avalanche_wallet_provider_avalanchewalletprovider",
+      "community": 2,
+      "norm_label": "avalanchewalletprovider()"
+    },
+    {
+      "label": "chat-provider.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/chat-provider.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_providers_chat_provider_tsx",
+      "community": 0,
+      "norm_label": "chat-provider.tsx"
+    },
+    {
+      "label": "ChatProvider()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/chat-provider.tsx",
+      "source_location": "L24",
+      "id": "chat_provider_chatprovider",
+      "community": 0,
+      "norm_label": "chatprovider()"
+    },
+    {
+      "label": "useChatContext()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/chat-provider.tsx",
+      "source_location": "L53",
+      "id": "chat_provider_usechatcontext",
+      "community": 0,
+      "norm_label": "usechatcontext()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/index.ts",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_providers_index_ts",
+      "community": 5,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "rainbowkit-wrapper.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/rainbowkit-wrapper.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_providers_rainbowkit_wrapper_tsx",
+      "community": 3,
+      "norm_label": "rainbowkit-wrapper.tsx"
+    },
+    {
+      "label": "RainbowKitWrapper()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/rainbowkit-wrapper.tsx",
+      "source_location": "L6",
+      "id": "rainbowkit_wrapper_rainbowkitwrapper",
+      "community": 3,
+      "norm_label": "rainbowkitwrapper()"
+    },
+    {
+      "label": "theme-provider.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/theme-provider.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_providers_theme_provider_tsx",
+      "community": 4,
+      "norm_label": "theme-provider.tsx"
+    },
+    {
+      "label": "ThemeProvider()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/theme-provider.tsx",
+      "source_location": "L7",
+      "id": "theme_provider_themeprovider",
+      "community": 4,
+      "norm_label": "themeprovider()"
+    },
+    {
+      "label": "txnlab-wallet-provider.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/txnlab-wallet-provider.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_providers_txnlab_wallet_provider_tsx",
+      "community": 1,
+      "norm_label": "txnlab-wallet-provider.tsx"
+    },
+    {
+      "label": "TxnLabWalletProvider()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/txnlab-wallet-provider.tsx",
+      "source_location": "L11",
+      "id": "txnlab_wallet_provider_txnlabwalletprovider",
+      "community": 1,
+      "norm_label": "txnlabwalletprovider()"
+    },
+    {
+      "label": "useWalletConnection()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/txnlab-wallet-provider.tsx",
+      "source_location": "L19",
+      "id": "txnlab_wallet_provider_usewalletconnection",
+      "community": 1,
+      "norm_label": "usewalletconnection()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/avalanche-wallet-provider.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_providers_avalanche_wallet_provider_tsx",
+      "_tgt": "avalanche_wallet_provider_avalanchewalletprovider",
+      "source": "home_anik2003_documents_omeswap_components_providers_avalanche_wallet_provider_tsx",
+      "target": "avalanche_wallet_provider_avalanchewalletprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/chat-provider.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_providers_chat_provider_tsx",
+      "_tgt": "chat_provider_chatprovider",
+      "source": "home_anik2003_documents_omeswap_components_providers_chat_provider_tsx",
+      "target": "chat_provider_chatprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/chat-provider.tsx",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_providers_chat_provider_tsx",
+      "_tgt": "chat_provider_usechatcontext",
+      "source": "home_anik2003_documents_omeswap_components_providers_chat_provider_tsx",
+      "target": "chat_provider_usechatcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/rainbowkit-wrapper.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_providers_rainbowkit_wrapper_tsx",
+      "_tgt": "rainbowkit_wrapper_rainbowkitwrapper",
+      "source": "home_anik2003_documents_omeswap_components_providers_rainbowkit_wrapper_tsx",
+      "target": "rainbowkit_wrapper_rainbowkitwrapper",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/theme-provider.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_providers_theme_provider_tsx",
+      "_tgt": "theme_provider_themeprovider",
+      "source": "home_anik2003_documents_omeswap_components_providers_theme_provider_tsx",
+      "target": "theme_provider_themeprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/txnlab-wallet-provider.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_providers_txnlab_wallet_provider_tsx",
+      "_tgt": "txnlab_wallet_provider_txnlabwalletprovider",
+      "source": "home_anik2003_documents_omeswap_components_providers_txnlab_wallet_provider_tsx",
+      "target": "txnlab_wallet_provider_txnlabwalletprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/providers/txnlab-wallet-provider.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_providers_txnlab_wallet_provider_tsx",
+      "_tgt": "txnlab_wallet_provider_usewalletconnection",
+      "source": "home_anik2003_documents_omeswap_components_providers_txnlab_wallet_provider_tsx",
+      "target": "txnlab_wallet_provider_usewalletconnection",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

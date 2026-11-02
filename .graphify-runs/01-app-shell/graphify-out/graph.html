@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>graphify - graphify-out/graph.html</title>
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0f0f1a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: flex; height: 100vh; overflow: hidden; }
+  #graph { flex: 1; }
+  #sidebar { width: 280px; background: #1a1a2e; border-left: 1px solid #2a2a4e; display: flex; flex-direction: column; overflow: hidden; }
+  #search-wrap { padding: 12px; border-bottom: 1px solid #2a2a4e; }
+  #search { width: 100%; background: #0f0f1a; border: 1px solid #3a3a5e; color: #e0e0e0; padding: 7px 10px; border-radius: 6px; font-size: 13px; outline: none; }
+  #search:focus { border-color: #4E79A7; }
+  #search-results { max-height: 140px; overflow-y: auto; padding: 4px 12px; border-bottom: 1px solid #2a2a4e; display: none; }
+  .search-item { padding: 4px 6px; cursor: pointer; border-radius: 4px; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .search-item:hover { background: #2a2a4e; }
+  #info-panel { padding: 14px; border-bottom: 1px solid #2a2a4e; min-height: 140px; }
+  #info-panel h3 { font-size: 13px; color: #aaa; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
+  #info-content { font-size: 13px; color: #ccc; line-height: 1.6; }
+  #info-content .field { margin-bottom: 5px; }
+  #info-content .field b { color: #e0e0e0; }
+  #info-content .empty { color: #555; font-style: italic; }
+  .neighbor-link { display: block; padding: 2px 6px; margin: 2px 0; border-radius: 3px; cursor: pointer; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 3px solid #333; }
+  .neighbor-link:hover { background: #2a2a4e; }
+  #neighbors-list { max-height: 160px; overflow-y: auto; margin-top: 4px; }
+  #legend-wrap { flex: 1; overflow-y: auto; padding: 12px; }
+  #legend-wrap h3 { font-size: 13px; color: #aaa; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .legend-item { display: flex; align-items: center; gap: 8px; padding: 4px 0; cursor: pointer; border-radius: 4px; font-size: 12px; }
+  .legend-item:hover { background: #2a2a4e; padding-left: 4px; }
+  .legend-item.dimmed { opacity: 0.35; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .legend-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .legend-count { color: #666; font-size: 11px; }
+  #stats { padding: 10px 14px; border-top: 1px solid #2a2a4e; font-size: 11px; color: #555; }
+</style>
+</head>
+<body>
+<div id="graph"></div>
+<div id="sidebar">
+  <div id="search-wrap">
+    <input id="search" type="text" placeholder="Search nodes..." autocomplete="off">
+    <div id="search-results"></div>
+  </div>
+  <div id="info-panel">
+    <h3>Node Info</h3>
+    <div id="info-content"><span class="empty">Click a node to inspect it</span></div>
+  </div>
+  <div id="legend-wrap">
+    <h3>Communities</h3>
+    <div id="legend"></div>
+  </div>
+  <div id="stats">39 nodes &middot; 35 edges &middot; 15 communities</div>
+</div>
+<script>
+const RAW_NODES = [{"id": "app_layout_tsx", "label": "layout.tsx", "color": {"background": "#B07AA1", "border": "#B07AA1", "highlight": {"background": "#ffffff", "border": "#B07AA1"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "layout.tsx", "community": 6, "community_name": "Root App Shell", "source_file": "app/layout.tsx", "file_type": "code", "degree": 1}, {"id": "layout_rootlayout", "label": "RootLayout()", "color": {"background": "#B07AA1", "border": "#B07AA1", "highlight": {"background": "#ffffff", "border": "#B07AA1"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "RootLayout()", "community": 6, "community_name": "Root App Shell", "source_file": "app/layout.tsx", "file_type": "code", "degree": 1}, {"id": "app_app_layout_tsx", "label": "layout.tsx", "color": {"background": "#FF9DA7", "border": "#FF9DA7", "highlight": {"background": "#ffffff", "border": "#FF9DA7"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "layout.tsx", "community": 7, "community_name": "Main App Layout", "source_file": "app/(app)/layout.tsx", "file_type": "code", "degree": 1}, {"id": "layout_applayout", "label": "AppLayout()", "color": {"background": "#FF9DA7", "border": "#FF9DA7", "highlight": {"background": "#ffffff", "border": "#FF9DA7"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "AppLayout()", "community": 7, "community_name": "Main App Layout", "source_file": "app/(app)/layout.tsx", "file_type": "code", "degree": 1}, {"id": "app_app_explore_page_tsx", "label": "page.tsx", "color": {"background": "#76B7B2", "border": "#76B7B2", "highlight": {"background": "#ffffff", "border": "#76B7B2"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "page.tsx", "community": 3, "community_name": "Explore Tokens Page", "source_file": "app/(app)/explore/page.tsx", "file_type": "code", "degree": 2}, {"id": "page_fetchtokens", "label": "fetchTokens()", "color": {"background": "#76B7B2", "border": "#76B7B2", "highlight": {"background": "#ffffff", "border": "#76B7B2"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "fetchTokens()", "community": 3, "community_name": "Explore Tokens Page", "source_file": "app/(app)/explore/page.tsx", "file_type": "code", "degree": 1}, {"id": "page_handletogglefavorite", "label": "handleToggleFavorite()", "color": {"background": "#76B7B2", "border": "#76B7B2", "highlight": {"background": "#ffffff", "border": "#76B7B2"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "handleToggleFavorite()", "community": 3, "community_name": "Explore Tokens Page", "source_file": "app/(app)/explore/page.tsx", "file_type": "code", "degree": 1}, {"id": "app_app_pool_id_page_tsx", "label": "page.tsx", "color": {"background": "#E15759", "border": "#E15759", "highlight": {"background": "#ffffff", "border": "#E15759"}}, "size": 10.0, "font": {"size": 0, "color": "#ffffff"}, "title": "page.tsx", "community": 12, "community_name": "Pool Detail Page", "source_file": "app/(app)/pool/[id]/page.tsx", "file_type": "code", "degree": 0}, {"id": "app_app_portfolio_page_tsx", "label": "page.tsx", "color": {"background": "#59A14F", "border": "#59A14F", "highlight": {"background": "#ffffff", "border": "#59A14F"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "page.tsx", "community": 4, "community_name": "Portfolio Analytics", "source_file": "app/(app)/portfolio/page.tsx", "file_type": "code", "degree": 2}, {"id": "page_generatechartdata", "label": "generateChartData()", "color": {"background": "#59A14F", "border": "#59A14F", "highlight": {"background": "#ffffff", "border": "#59A14F"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "generateChartData()", "community": 4, "community_name": "Portfolio Analytics", "source_file": "app/(app)/portfolio/page.tsx", "file_type": "code", "degree": 1}, {"id": "page_fetchprices", "label": "fetchPrices()", "color": {"background": "#59A14F", "border": "#59A14F", "highlight": {"background": "#ffffff", "border": "#59A14F"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "fetchPrices()", "community": 4, "community_name": "Portfolio Analytics", "source_file": "app/(app)/portfolio/page.tsx", "file_type": "code", "degree": 1}, {"id": "app_app_trade_page_tsx", "label": "page.tsx", "color": {"background": "#76B7B2", "border": "#76B7B2", "highlight": {"background": "#ffffff", "border": "#76B7B2"}}, "size": 10.0, "font": {"size": 0, "color": "#ffffff"}, "title": "page.tsx", "community": 13, "community_name": "Trade Page", "source_file": "app/(app)/trade/page.tsx", "file_type": "code", "degree": 0}, {"id": "app_app_transactions_page_tsx", "label": "page.tsx", "color": {"background": "#9C755F", "border": "#9C755F", "highlight": {"background": "#ffffff", "border": "#9C755F"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "page.tsx", "community": 8, "community_name": "Transaction History", "source_file": "app/(app)/transactions/page.tsx", "file_type": "code", "degree": 1}, {"id": "page_transactionhistory", "label": "TransactionHistory()", "color": {"background": "#9C755F", "border": "#9C755F", "highlight": {"background": "#ffffff", "border": "#9C755F"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "TransactionHistory()", "community": 8, "community_name": "Transaction History", "source_file": "app/(app)/transactions/page.tsx", "file_type": "code", "degree": 1}, {"id": "app_builder_layout_tsx", "label": "layout.tsx", "color": {"background": "#BAB0AC", "border": "#BAB0AC", "highlight": {"background": "#ffffff", "border": "#BAB0AC"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "layout.tsx", "community": 9, "community_name": "Builder Layout", "source_file": "app/(builder)/layout.tsx", "file_type": "code", "degree": 1}, {"id": "layout_builderlayout", "label": "BuilderLayout()", "color": {"background": "#BAB0AC", "border": "#BAB0AC", "highlight": {"background": "#ffffff", "border": "#BAB0AC"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "BuilderLayout()", "community": 9, "community_name": "Builder Layout", "source_file": "app/(builder)/layout.tsx", "file_type": "code", "degree": 1}, {"id": "app_builder_agent_builder_page_tsx", "label": "page.tsx", "color": {"background": "#EDC948", "border": "#EDC948", "highlight": {"background": "#ffffff", "border": "#EDC948"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "page.tsx", "community": 5, "community_name": "Agent Builder UI", "source_file": "app/(builder)/agent-builder/page.tsx", "file_type": "code", "degree": 2}, {"id": "page_resolvenodetype", "label": "resolveNodeType()", "color": {"background": "#EDC948", "border": "#EDC948", "highlight": {"background": "#ffffff", "border": "#EDC948"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "resolveNodeType()", "community": 5, "community_name": "Agent Builder UI", "source_file": "app/(builder)/agent-builder/page.tsx", "file_type": "code", "degree": 1}, {"id": "page_agentbuilderpage", "label": "AgentBuilderPage()", "color": {"background": "#EDC948", "border": "#EDC948", "highlight": {"background": "#ffffff", "border": "#EDC948"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "AgentBuilderPage()", "community": 5, "community_name": "Agent Builder UI", "source_file": "app/(builder)/agent-builder/page.tsx", "file_type": "code", "degree": 1}, {"id": "app_landing_layout_tsx", "label": "layout.tsx", "color": {"background": "#4E79A7", "border": "#4E79A7", "highlight": {"background": "#ffffff", "border": "#4E79A7"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "layout.tsx", "community": 10, "community_name": "Landing Layout", "source_file": "app/(landing)/layout.tsx", "file_type": "code", "degree": 1}, {"id": "layout_landinglayout", "label": "LandingLayout()", "color": {"background": "#4E79A7", "border": "#4E79A7", "highlight": {"background": "#ffffff", "border": "#4E79A7"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "LandingLayout()", "community": 10, "community_name": "Landing Layout", "source_file": "app/(landing)/layout.tsx", "file_type": "code", "degree": 1}, {"id": "app_landing_page_tsx", "label": "page.tsx", "color": {"background": "#F28E2B", "border": "#F28E2B", "highlight": {"background": "#ffffff", "border": "#F28E2B"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "page.tsx", "community": 11, "community_name": "Landing Home Page", "source_file": "app/(landing)/page.tsx", "file_type": "code", "degree": 1}, {"id": "page_home", "label": "Home()", "color": {"background": "#F28E2B", "border": "#F28E2B", "highlight": {"background": "#ffffff", "border": "#F28E2B"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "Home()", "community": 11, "community_name": "Landing Home Page", "source_file": "app/(landing)/page.tsx", "file_type": "code", "degree": 1}, {"id": "app_api_agent_builder_agent_route_ts", "label": "route.ts", "color": {"background": "#E15759", "border": "#E15759", "highlight": {"background": "#ffffff", "border": "#E15759"}}, "size": 13.0, "font": {"size": 0, "color": "#ffffff"}, "title": "route.ts", "community": 2, "community_name": "Agent Builder API", "source_file": "app/api/agent-builder/agent/route.ts", "file_type": "code", "degree": 1}, {"id": "route_post", "label": "POST()", "color": {"background": "#E15759", "border": "#E15759", "highlight": {"background": "#ffffff", "border": "#E15759"}}, "size": 19.0, "font": {"size": 12, "color": "#ffffff"}, "title": "POST()", "community": 2, "community_name": "Agent Builder API", "source_file": "app/api/agent-builder/chat/route.ts", "file_type": "code", "degree": 3}, {"id": "app_api_agent_builder_chat_route_ts", "label": "route.ts", "color": {"background": "#E15759", "border": "#E15759", "highlight": {"background": "#ffffff", "border": "#E15759"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "route.ts", "community": 2, "community_name": "Agent Builder API", "source_file": "app/api/agent-builder/chat/route.ts", "file_type": "code", "degree": 2}, {"id": "route_getopenaiclient", "label": "getOpenAIClient()", "color": {"background": "#E15759", "border": "#E15759", "highlight": {"background": "#ffffff", "border": "#E15759"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "getOpenAIClient()", "community": 2, "community_name": "Agent Builder API", "source_file": "app/api/agent-builder/chat/route.ts", "file_type": "code", "degree": 2}, {"id": "app_api_crypto_route_ts", "label": "route.ts", "color": {"background": "#F28E2B", "border": "#F28E2B", "highlight": {"background": "#ffffff", "border": "#F28E2B"}}, "size": 40.0, "font": {"size": 12, "color": "#ffffff"}, "title": "route.ts", "community": 1, "community_name": "Crypto Data Transforms", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 10}, {"id": "route_generatesparklinedata", "label": "generateSparklineData()", "color": {"background": "#F28E2B", "border": "#F28E2B", "highlight": {"background": "#ffffff", "border": "#F28E2B"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "generateSparklineData()", "community": 1, "community_name": "Crypto Data Transforms", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 2}, {"id": "route_transformcoingeckodata", "label": "transformCoinGeckoData()", "color": {"background": "#4E79A7", "border": "#4E79A7", "highlight": {"background": "#ffffff", "border": "#4E79A7"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "transformCoinGeckoData()", "community": 0, "community_name": "Crypto Market Fetchers", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 2}, {"id": "route_transformcmcdata", "label": "transformCMCData()", "color": {"background": "#F28E2B", "border": "#F28E2B", "highlight": {"background": "#ffffff", "border": "#F28E2B"}}, "size": 19.0, "font": {"size": 12, "color": "#ffffff"}, "title": "transformCMCData()", "community": 1, "community_name": "Crypto Data Transforms", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 3}, {"id": "route_transformgeckoterminalpools", "label": "transformGeckoTerminalPools()", "color": {"background": "#4E79A7", "border": "#4E79A7", "highlight": {"background": "#ffffff", "border": "#4E79A7"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "transformGeckoTerminalPools()", "community": 0, "community_name": "Crypto Market Fetchers", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 2}, {"id": "route_fetchfromcoingecko", "label": "fetchFromCoinGecko()", "color": {"background": "#4E79A7", "border": "#4E79A7", "highlight": {"background": "#ffffff", "border": "#4E79A7"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "fetchFromCoinGecko()", "community": 0, "community_name": "Crypto Market Fetchers", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 2}, {"id": "route_fetchpoolsfromgeckoterminal", "label": "fetchPoolsFromGeckoTerminal()", "color": {"background": "#4E79A7", "border": "#4E79A7", "highlight": {"background": "#ffffff", "border": "#4E79A7"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "fetchPoolsFromGeckoTerminal()", "community": 0, "community_name": "Crypto Market Fetchers", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 2}, {"id": "route_fetchfromcoinmarketcap", "label": "fetchFromCoinMarketCap()", "color": {"background": "#F28E2B", "border": "#F28E2B", "highlight": {"background": "#ffffff", "border": "#F28E2B"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "fetchFromCoinMarketCap()", "community": 1, "community_name": "Crypto Data Transforms", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 2}, {"id": "route_fetchfromkryll", "label": "fetchFromKryll()", "color": {"background": "#4E79A7", "border": "#4E79A7", "highlight": {"background": "#ffffff", "border": "#4E79A7"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "fetchFromKryll()", "community": 0, "community_name": "Crypto Market Fetchers", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 2}, {"id": "route_transformkrylldata", "label": "transformKryllData()", "color": {"background": "#F28E2B", "border": "#F28E2B", "highlight": {"background": "#ffffff", "border": "#F28E2B"}}, "size": 16.0, "font": {"size": 12, "color": "#ffffff"}, "title": "transformKryllData()", "community": 1, "community_name": "Crypto Data Transforms", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 2}, {"id": "route_get", "label": "GET()", "color": {"background": "#4E79A7", "border": "#4E79A7", "highlight": {"background": "#ffffff", "border": "#4E79A7"}}, "size": 37.0, "font": {"size": 12, "color": "#ffffff"}, "title": "GET()", "community": 0, "community_name": "Crypto Market Fetchers", "source_file": "app/api/crypto/route.ts", "file_type": "code", "degree": 9}, {"id": "app_api_crypto_types_ts", "label": "types.ts", "color": {"background": "#59A14F", "border": "#59A14F", "highlight": {"background": "#ffffff", "border": "#59A14F"}}, "size": 10.0, "font": {"size": 0, "color": "#ffffff"}, "title": "types.ts", "community": 14, "community_name": "Crypto API Types", "source_file": "app/api/crypto/types.ts", "file_type": "code", "degree": 0}];
+const RAW_EDGES = [{"from": "app_layout_tsx", "to": "layout_rootlayout", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_app_layout_tsx", "to": "layout_applayout", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_app_explore_page_tsx", "to": "page_fetchtokens", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_app_explore_page_tsx", "to": "page_handletogglefavorite", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_app_portfolio_page_tsx", "to": "page_generatechartdata", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_app_portfolio_page_tsx", "to": "page_fetchprices", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_app_transactions_page_tsx", "to": "page_transactionhistory", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_builder_layout_tsx", "to": "layout_builderlayout", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_builder_agent_builder_page_tsx", "to": "page_resolvenodetype", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_builder_agent_builder_page_tsx", "to": "page_agentbuilderpage", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_landing_layout_tsx", "to": "layout_landinglayout", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_landing_page_tsx", "to": "page_home", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_agent_builder_agent_route_ts", "to": "route_post", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_post", "to": "app_api_agent_builder_chat_route_ts", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_post", "to": "route_getopenaiclient", "label": "calls", "title": "calls [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_agent_builder_chat_route_ts", "to": "route_getopenaiclient", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_crypto_route_ts", "to": "route_generatesparklinedata", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_crypto_route_ts", "to": "route_transformcoingeckodata", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_crypto_route_ts", "to": "route_transformcmcdata", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_crypto_route_ts", "to": "route_transformgeckoterminalpools", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_crypto_route_ts", "to": "route_fetchfromcoingecko", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_crypto_route_ts", "to": "route_fetchpoolsfromgeckoterminal", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_crypto_route_ts", "to": "route_fetchfromcoinmarketcap", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_crypto_route_ts", "to": "route_fetchfromkryll", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_crypto_route_ts", "to": "route_transformkrylldata", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "app_api_crypto_route_ts", "to": "route_get", "label": "contains", "title": "contains [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_generatesparklinedata", "to": "route_transformcmcdata", "label": "calls", "title": "calls [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_transformcoingeckodata", "to": "route_get", "label": "calls", "title": "calls [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_transformcmcdata", "to": "route_get", "label": "calls", "title": "calls [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_transformgeckoterminalpools", "to": "route_get", "label": "calls", "title": "calls [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_fetchfromcoingecko", "to": "route_get", "label": "calls", "title": "calls [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_fetchpoolsfromgeckoterminal", "to": "route_get", "label": "calls", "title": "calls [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_fetchfromcoinmarketcap", "to": "route_get", "label": "calls", "title": "calls [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_fetchfromkryll", "to": "route_get", "label": "calls", "title": "calls [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}, {"from": "route_transformkrylldata", "to": "route_get", "label": "calls", "title": "calls [EXTRACTED]", "dashes": false, "width": 2, "color": {"opacity": 0.7}, "confidence": "EXTRACTED"}];
+const LEGEND = [{"cid": 0, "color": "#4E79A7", "label": "Crypto Market Fetchers", "count": 6}, {"cid": 1, "color": "#F28E2B", "label": "Crypto Data Transforms", "count": 5}, {"cid": 2, "color": "#E15759", "label": "Agent Builder API", "count": 4}, {"cid": 3, "color": "#76B7B2", "label": "Explore Tokens Page", "count": 3}, {"cid": 4, "color": "#59A14F", "label": "Portfolio Analytics", "count": 3}, {"cid": 5, "color": "#EDC948", "label": "Agent Builder UI", "count": 3}, {"cid": 6, "color": "#B07AA1", "label": "Root App Shell", "count": 2}, {"cid": 7, "color": "#FF9DA7", "label": "Main App Layout", "count": 2}, {"cid": 8, "color": "#9C755F", "label": "Transaction History", "count": 2}, {"cid": 9, "color": "#BAB0AC", "label": "Builder Layout", "count": 2}, {"cid": 10, "color": "#4E79A7", "label": "Landing Layout", "count": 2}, {"cid": 11, "color": "#F28E2B", "label": "Landing Home Page", "count": 2}, {"cid": 12, "color": "#E15759", "label": "Pool Detail Page", "count": 1}, {"cid": 13, "color": "#76B7B2", "label": "Trade Page", "count": 1}, {"cid": 14, "color": "#59A14F", "label": "Crypto API Types", "count": 1}];
+
+// HTML-escape helper — prevents XSS when injecting graph data into innerHTML
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+// Build vis datasets
+const nodesDS = new vis.DataSet(RAW_NODES.map(n => ({
+  id: n.id, label: n.label, color: n.color, size: n.size,
+  font: n.font, title: n.title,
+  _community: n.community, _community_name: n.community_name,
+  _source_file: n.source_file, _file_type: n.file_type, _degree: n.degree,
+})));
+
+const edgesDS = new vis.DataSet(RAW_EDGES.map((e, i) => ({
+  id: i, from: e.from, to: e.to,
+  label: '',
+  title: e.title,
+  dashes: e.dashes,
+  width: e.width,
+  color: e.color,
+  arrows: { to: { enabled: true, scaleFactor: 0.5 } },
+})));
+
+const container = document.getElementById('graph');
+const network = new vis.Network(container, { nodes: nodesDS, edges: edgesDS }, {
+  physics: {
+    enabled: true,
+    solver: 'forceAtlas2Based',
+    forceAtlas2Based: {
+      gravitationalConstant: -60,
+      centralGravity: 0.005,
+      springLength: 120,
+      springConstant: 0.08,
+      damping: 0.4,
+      avoidOverlap: 0.8,
+    },
+    stabilization: { iterations: 200, fit: true },
+  },
+  interaction: {
+    hover: true,
+    tooltipDelay: 100,
+    hideEdgesOnDrag: true,
+    navigationButtons: false,
+    keyboard: false,
+  },
+  nodes: { shape: 'dot', borderWidth: 1.5 },
+  edges: { smooth: { type: 'continuous', roundness: 0.2 }, selectionWidth: 3 },
+});
+
+network.once('stabilizationIterationsDone', () => {
+  network.setOptions({ physics: { enabled: false } });
+});
+
+function showInfo(nodeId) {
+  const n = nodesDS.get(nodeId);
+  if (!n) return;
+  const neighborIds = network.getConnectedNodes(nodeId);
+  const neighborItems = neighborIds.map(nid => {
+    const nb = nodesDS.get(nid);
+    const color = nb ? nb.color.background : '#555';
+    return `<span class="neighbor-link" style="border-left-color:${esc(color)}" onclick="focusNode(${JSON.stringify(nid)})">${esc(nb ? nb.label : nid)}</span>`;
+  }).join('');
+  document.getElementById('info-content').innerHTML = `
+    <div class="field"><b>${esc(n.label)}</b></div>
+    <div class="field">Type: ${esc(n._file_type || 'unknown')}</div>
+    <div class="field">Community: ${esc(n._community_name)}</div>
+    <div class="field">Source: ${esc(n._source_file || '-')}</div>
+    <div class="field">Degree: ${n._degree}</div>
+    ${neighborIds.length ? `<div class="field" style="margin-top:8px;color:#aaa;font-size:11px">Neighbors (${neighborIds.length})</div><div id="neighbors-list">${neighborItems}</div>` : ''}
+  `;
+}
+
+function focusNode(nodeId) {
+  network.focus(nodeId, { scale: 1.4, animation: true });
+  network.selectNodes([nodeId]);
+  showInfo(nodeId);
+}
+
+// Track hovered node — hover detection is more reliable than click params
+let hoveredNodeId = null;
+network.on('hoverNode', params => {
+  hoveredNodeId = params.node;
+  container.style.cursor = 'pointer';
+});
+network.on('blurNode', () => {
+  hoveredNodeId = null;
+  container.style.cursor = 'default';
+});
+container.addEventListener('click', () => {
+  if (hoveredNodeId !== null) {
+    showInfo(hoveredNodeId);
+    network.selectNodes([hoveredNodeId]);
+  }
+});
+network.on('click', params => {
+  if (params.nodes.length > 0) {
+    showInfo(params.nodes[0]);
+  } else if (hoveredNodeId === null) {
+    document.getElementById('info-content').innerHTML = '<span class="empty">Click a node to inspect it</span>';
+  }
+});
+
+const searchInput = document.getElementById('search');
+const searchResults = document.getElementById('search-results');
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.toLowerCase().trim();
+  searchResults.innerHTML = '';
+  if (!q) { searchResults.style.display = 'none'; return; }
+  const matches = RAW_NODES.filter(n => n.label.toLowerCase().includes(q)).slice(0, 20);
+  if (!matches.length) { searchResults.style.display = 'none'; return; }
+  searchResults.style.display = 'block';
+  matches.forEach(n => {
+    const el = document.createElement('div');
+    el.className = 'search-item';
+    el.textContent = n.label;
+    el.style.borderLeft = `3px solid ${n.color.background}`;
+    el.style.paddingLeft = '8px';
+    el.onclick = () => {
+      network.focus(n.id, { scale: 1.5, animation: true });
+      network.selectNodes([n.id]);
+      showInfo(n.id);
+      searchResults.style.display = 'none';
+      searchInput.value = '';
+    };
+    searchResults.appendChild(el);
+  });
+});
+document.addEventListener('click', e => {
+  if (!searchResults.contains(e.target) && e.target !== searchInput)
+    searchResults.style.display = 'none';
+});
+
+const hiddenCommunities = new Set();
+const legendEl = document.getElementById('legend');
+LEGEND.forEach(c => {
+  const item = document.createElement('div');
+  item.className = 'legend-item';
+  item.innerHTML = `<div class="legend-dot" style="background:${c.color}"></div>
+    <span class="legend-label">${c.label}</span>
+    <span class="legend-count">${c.count}</span>`;
+  item.onclick = () => {
+    if (hiddenCommunities.has(c.cid)) {
+      hiddenCommunities.delete(c.cid);
+      item.classList.remove('dimmed');
+    } else {
+      hiddenCommunities.add(c.cid);
+      item.classList.add('dimmed');
+    }
+    const updates = RAW_NODES
+      .filter(n => n.community === c.cid)
+      .map(n => ({ id: n.id, hidden: hiddenCommunities.has(c.cid) }));
+    nodesDS.update(updates);
+  };
+  legendEl.appendChild(item);
+});
+</script>
+<script>
+// Render hyperedges as shaded regions
+const hyperedges = [];
+// afterDrawing passes ctx already transformed to network coordinate space.
+// Draw node positions raw — no manual pan/zoom/DPR math needed.
+network.on('afterDrawing', function(ctx) {
+    hyperedges.forEach(h => {
+        const positions = h.nodes
+            .map(nid => network.getPositions([nid])[nid])
+            .filter(p => p !== undefined);
+        if (positions.length < 2) return;
+        ctx.save();
+        ctx.globalAlpha = 0.12;
+        ctx.fillStyle = '#6366f1';
+        ctx.strokeStyle = '#6366f1';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        // Centroid and expanded hull in network coordinates
+        const cx = positions.reduce((s, p) => s + p.x, 0) / positions.length;
+        const cy = positions.reduce((s, p) => s + p.y, 0) / positions.length;
+        const expanded = positions.map(p => ({
+            x: cx + (p.x - cx) * 1.15,
+            y: cy + (p.y - cy) * 1.15
+        }));
+        ctx.moveTo(expanded[0].x, expanded[0].y);
+        expanded.slice(1).forEach(p => ctx.lineTo(p.x, p.y));
+        ctx.closePath();
+        ctx.fill();
+        ctx.globalAlpha = 0.4;
+        ctx.stroke();
+        // Label
+        ctx.globalAlpha = 0.8;
+        ctx.fillStyle = '#4f46e5';
+        ctx.font = 'bold 11px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText(h.label, cx, cy - 5);
+        ctx.restore();
+    });
+});
+</script>
+</body>
+</html>

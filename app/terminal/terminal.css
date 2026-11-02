@@ -1,0 +1,64 @@
+/* OmeSwap Terminal — scoped tokens.
+   Variables apply ONLY inside `.terminal-page`, so the rest of the
+   app keeps its own globals.css palette untouched. Palette mirrors
+   OmeSwap's dark-mode brand (purple #5227FF on deep purple-black). */
+
+.terminal-page {
+  --radius: 0.625rem;
+
+  /* OmeSwap deep purple-black */
+  --background: 270 40% 4%;
+  --foreground: 0 0% 98%;
+
+  --card: 270 50% 8%;
+  --card-foreground: 0 0% 98%;
+
+  --popover: 270 50% 8%;
+  --popover-foreground: 0 0% 98%;
+
+  --primary: 262 83% 71%;
+  --primary-foreground: 270 40% 4%;
+
+  --secondary: 270 30% 15%;
+  --secondary-foreground: 0 0% 98%;
+
+  --muted: 270 20% 20%;
+  --muted-foreground: 220 10% 65%;
+
+  --accent: 262 83% 71%;
+  --accent-foreground: 270 40% 4%;
+
+  --destructive: 0 72% 71%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 270 30% 18%;
+  --input: 270 30% 18%;
+  --ring: 262 83% 71%;
+
+  /* OmeSwap-tinted Phantom panel tones */
+  --panel: 270 40% 9%;
+  --panel-hover: 270 35% 14%;
+  --bull: 164 80% 54%;
+  --bear: 0 72% 71%;
+
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+.terminal-page .tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.terminal-page .font-mono {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Soft purple ambient glow on the page edges, mirroring landing vibe */
+.terminal-page {
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, hsl(262 83% 71% / 0.12), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 100% 100%, hsl(262 83% 71% / 0.06), transparent 60%);
+}

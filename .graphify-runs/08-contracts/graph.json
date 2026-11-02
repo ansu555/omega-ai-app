@@ -1,0 +1,36 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "config.ts",
+      "file_type": "code",
+      "source_file": "config.ts",
+      "source_location": "L1",
+      "id": "config_ts",
+      "community": 1,
+      "norm_label": "config.ts"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "index.ts",
+      "source_location": "L1",
+      "id": "index_ts",
+      "community": 2,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "abis/index.ts",
+      "source_location": "L1",
+      "id": "abis_index_ts",
+      "community": 0,
+      "norm_label": "index.ts"
+    }
+  ],
+  "links": [],
+  "hyperedges": []
+}

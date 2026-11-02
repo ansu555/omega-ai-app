@@ -1,0 +1,36 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "agent-builder-canvas.ts",
+      "file_type": "code",
+      "source_file": "agent-builder-canvas.ts",
+      "source_location": "L1",
+      "id": "agent_builder_canvas_ts",
+      "community": 0,
+      "norm_label": "agent-builder-canvas.ts"
+    },
+    {
+      "label": "agent-builder.ts",
+      "file_type": "code",
+      "source_file": "agent-builder.ts",
+      "source_location": "L1",
+      "id": "agent_builder_ts",
+      "community": 1,
+      "norm_label": "agent-builder.ts"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "index.ts",
+      "source_location": "L1",
+      "id": "index_ts",
+      "community": 2,
+      "norm_label": "index.ts"
+    }
+  ],
+  "links": [],
+  "hyperedges": []
+}

@@ -1,0 +1,49 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/shared/index.ts",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_shared_index_ts",
+      "community": 1,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "mode-toggle.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/shared/mode-toggle.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_shared_mode_toggle_tsx",
+      "community": 0,
+      "norm_label": "mode-toggle.tsx"
+    },
+    {
+      "label": "ModeToggle()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/shared/mode-toggle.tsx",
+      "source_location": "L3",
+      "id": "mode_toggle_modetoggle",
+      "community": 0,
+      "norm_label": "modetoggle()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/shared/mode-toggle.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_shared_mode_toggle_tsx",
+      "_tgt": "mode_toggle_modetoggle",
+      "source": "home_anik2003_documents_omeswap_components_shared_mode_toggle_tsx",
+      "target": "mode_toggle_modetoggle",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

@@ -1,0 +1,403 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "ExplorerTabs.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/ExplorerTabs.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_explorertabs_tsx",
+      "community": 6,
+      "norm_label": "explorertabs.tsx"
+    },
+    {
+      "label": "MetricsBar.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/MetricsBar.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_metricsbar_tsx",
+      "community": 7,
+      "norm_label": "metricsbar.tsx"
+    },
+    {
+      "label": "PoolsTable.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/PoolsTable.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_poolstable_tsx",
+      "community": 1,
+      "norm_label": "poolstable.tsx"
+    },
+    {
+      "label": "formatNumber()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/PoolsTable.tsx",
+      "source_location": "L34",
+      "id": "poolstable_formatnumber",
+      "community": 1,
+      "norm_label": "formatnumber()"
+    },
+    {
+      "label": "handleSort()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/PoolsTable.tsx",
+      "source_location": "L46",
+      "id": "poolstable_handlesort",
+      "community": 1,
+      "norm_label": "handlesort()"
+    },
+    {
+      "label": "SortIndicator()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/PoolsTable.tsx",
+      "source_location": "L60",
+      "id": "poolstable_sortindicator",
+      "community": 1,
+      "norm_label": "sortindicator()"
+    },
+    {
+      "label": "SearchBar.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/SearchBar.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_searchbar_tsx",
+      "community": 2,
+      "norm_label": "searchbar.tsx"
+    },
+    {
+      "label": "SearchBar()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/SearchBar.tsx",
+      "source_location": "L10",
+      "id": "searchbar_searchbar",
+      "community": 2,
+      "norm_label": "searchbar()"
+    },
+    {
+      "label": "Sparkline.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/Sparkline.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_sparkline_tsx",
+      "community": 3,
+      "norm_label": "sparkline.tsx"
+    },
+    {
+      "label": "Sparkline()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/Sparkline.tsx",
+      "source_location": "L10",
+      "id": "sparkline_sparkline",
+      "community": 3,
+      "norm_label": "sparkline()"
+    },
+    {
+      "label": "StatsWidget.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/StatsWidget.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_statswidget_tsx",
+      "community": 4,
+      "norm_label": "statswidget.tsx"
+    },
+    {
+      "label": "generateSmoothPath()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/StatsWidget.tsx",
+      "source_location": "L8",
+      "id": "statswidget_generatesmoothpath",
+      "community": 4,
+      "norm_label": "generatesmoothpath()"
+    },
+    {
+      "label": "SummaryCard.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/SummaryCard.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_summarycard_tsx",
+      "community": 8,
+      "norm_label": "summarycard.tsx"
+    },
+    {
+      "label": "TableFilters.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TableFilters.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_tablefilters_tsx",
+      "community": 9,
+      "norm_label": "tablefilters.tsx"
+    },
+    {
+      "label": "TimeRangeSelect.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TimeRangeSelect.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_timerangeselect_tsx",
+      "community": 5,
+      "norm_label": "timerangeselect.tsx"
+    },
+    {
+      "label": "TimeRangeSelect()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TimeRangeSelect.tsx",
+      "source_location": "L23",
+      "id": "timerangeselect_timerangeselect",
+      "community": 5,
+      "norm_label": "timerangeselect()"
+    },
+    {
+      "label": "TransactionsTable.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "community": 0,
+      "norm_label": "transactionstable.tsx"
+    },
+    {
+      "label": "formatNumber()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L33",
+      "id": "transactionstable_formatnumber",
+      "community": 0,
+      "norm_label": "formatnumber()"
+    },
+    {
+      "label": "formatAddress()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L39",
+      "id": "transactionstable_formataddress",
+      "community": 0,
+      "norm_label": "formataddress()"
+    },
+    {
+      "label": "formatTime()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L43",
+      "id": "transactionstable_formattime",
+      "community": 0,
+      "norm_label": "formattime()"
+    },
+    {
+      "label": "getTypeLabel()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L56",
+      "id": "transactionstable_gettypelabel",
+      "community": 0,
+      "norm_label": "gettypelabel()"
+    },
+    {
+      "label": "getTypeColor()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L67",
+      "id": "transactionstable_gettypecolor",
+      "community": 0,
+      "norm_label": "gettypecolor()"
+    },
+    {
+      "label": "handleSort()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L86",
+      "id": "transactionstable_handlesort",
+      "community": 0,
+      "norm_label": "handlesort()"
+    },
+    {
+      "label": "SortIndicator()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L103",
+      "id": "transactionstable_sortindicator",
+      "community": 0,
+      "norm_label": "sortindicator()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/index.ts",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_explore_index_ts",
+      "community": 10,
+      "norm_label": "index.ts"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/PoolsTable.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_poolstable_tsx",
+      "_tgt": "poolstable_formatnumber",
+      "source": "home_anik2003_documents_omeswap_components_explore_poolstable_tsx",
+      "target": "poolstable_formatnumber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/PoolsTable.tsx",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_poolstable_tsx",
+      "_tgt": "poolstable_handlesort",
+      "source": "home_anik2003_documents_omeswap_components_explore_poolstable_tsx",
+      "target": "poolstable_handlesort",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/PoolsTable.tsx",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_poolstable_tsx",
+      "_tgt": "poolstable_sortindicator",
+      "source": "home_anik2003_documents_omeswap_components_explore_poolstable_tsx",
+      "target": "poolstable_sortindicator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/SearchBar.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_searchbar_tsx",
+      "_tgt": "searchbar_searchbar",
+      "source": "home_anik2003_documents_omeswap_components_explore_searchbar_tsx",
+      "target": "searchbar_searchbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/Sparkline.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_sparkline_tsx",
+      "_tgt": "sparkline_sparkline",
+      "source": "home_anik2003_documents_omeswap_components_explore_sparkline_tsx",
+      "target": "sparkline_sparkline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/StatsWidget.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_statswidget_tsx",
+      "_tgt": "statswidget_generatesmoothpath",
+      "source": "home_anik2003_documents_omeswap_components_explore_statswidget_tsx",
+      "target": "statswidget_generatesmoothpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TimeRangeSelect.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_timerangeselect_tsx",
+      "_tgt": "timerangeselect_timerangeselect",
+      "source": "home_anik2003_documents_omeswap_components_explore_timerangeselect_tsx",
+      "target": "timerangeselect_timerangeselect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "_tgt": "transactionstable_formatnumber",
+      "source": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "target": "transactionstable_formatnumber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "_tgt": "transactionstable_formataddress",
+      "source": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "target": "transactionstable_formataddress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "_tgt": "transactionstable_formattime",
+      "source": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "target": "transactionstable_formattime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "_tgt": "transactionstable_gettypelabel",
+      "source": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "target": "transactionstable_gettypelabel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "_tgt": "transactionstable_gettypecolor",
+      "source": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "target": "transactionstable_gettypecolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "_tgt": "transactionstable_handlesort",
+      "source": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "target": "transactionstable_handlesort",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/explore/TransactionsTable.tsx",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "_tgt": "transactionstable_sortindicator",
+      "source": "home_anik2003_documents_omeswap_components_explore_transactionstable_tsx",
+      "target": "transactionstable_sortindicator",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

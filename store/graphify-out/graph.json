@@ -1,0 +1,154 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "agent-builder.ts",
+      "file_type": "code",
+      "source_file": "agent-builder.ts",
+      "source_location": "L1",
+      "id": "agent_builder_ts",
+      "community": 0,
+      "norm_label": "agent-builder.ts"
+    },
+    {
+      "label": "listWorkflows()",
+      "file_type": "code",
+      "source_file": "agent-builder.ts",
+      "source_location": "L38",
+      "id": "agent_builder_listworkflows",
+      "community": 0,
+      "norm_label": "listworkflows()"
+    },
+    {
+      "label": "persistWorkflows()",
+      "file_type": "code",
+      "source_file": "agent-builder.ts",
+      "source_location": "L49",
+      "id": "agent_builder_persistworkflows",
+      "community": 0,
+      "norm_label": "persistworkflows()"
+    },
+    {
+      "label": "saveToSession()",
+      "file_type": "code",
+      "source_file": "agent-builder.ts",
+      "source_location": "L156",
+      "id": "agent_builder_savetosession",
+      "community": 0,
+      "norm_label": "savetosession()"
+    },
+    {
+      "label": "loadFromSession()",
+      "file_type": "code",
+      "source_file": "agent-builder.ts",
+      "source_location": "L174",
+      "id": "agent_builder_loadfromsession",
+      "community": 0,
+      "norm_label": "loadfromsession()"
+    },
+    {
+      "label": "transaction-store.ts",
+      "file_type": "code",
+      "source_file": "transaction-store.ts",
+      "source_location": "L1",
+      "id": "transaction_store_ts",
+      "community": 1,
+      "norm_label": "transaction-store.ts"
+    },
+    {
+      "label": "persist()",
+      "file_type": "code",
+      "source_file": "transaction-store.ts",
+      "source_location": "L45",
+      "id": "transaction_store_persist",
+      "community": 1,
+      "norm_label": "persist()"
+    },
+    {
+      "label": "useHydrateTransactionStore()",
+      "file_type": "code",
+      "source_file": "transaction-store.ts",
+      "source_location": "L92",
+      "id": "transaction_store_usehydratetransactionstore",
+      "community": 1,
+      "norm_label": "usehydratetransactionstore()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-builder.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "agent_builder_ts",
+      "_tgt": "agent_builder_listworkflows",
+      "source": "agent_builder_ts",
+      "target": "agent_builder_listworkflows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-builder.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_src": "agent_builder_ts",
+      "_tgt": "agent_builder_persistworkflows",
+      "source": "agent_builder_ts",
+      "target": "agent_builder_persistworkflows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-builder.ts",
+      "source_location": "L156",
+      "weight": 1.0,
+      "_src": "agent_builder_ts",
+      "_tgt": "agent_builder_savetosession",
+      "source": "agent_builder_ts",
+      "target": "agent_builder_savetosession",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "agent-builder.ts",
+      "source_location": "L174",
+      "weight": 1.0,
+      "_src": "agent_builder_ts",
+      "_tgt": "agent_builder_loadfromsession",
+      "source": "agent_builder_ts",
+      "target": "agent_builder_loadfromsession",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "transaction-store.ts",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_src": "transaction_store_ts",
+      "_tgt": "transaction_store_persist",
+      "source": "transaction_store_ts",
+      "target": "transaction_store_persist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "transaction-store.ts",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_src": "transaction_store_ts",
+      "_tgt": "transaction_store_usehydratetransactionstore",
+      "source": "transaction_store_ts",
+      "target": "transaction_store_usehydratetransactionstore",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

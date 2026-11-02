@@ -1,0 +1,13 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "ignorePatterns": [
+    ".next/",
+    "node_modules/",
+    "avax-agent/",
+    "graphify-out/",
+    "**/graphify-out/"
+  ],
+  "rules": {
+    "react/no-unescaped-entities": "off"
+  }
+}

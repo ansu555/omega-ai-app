@@ -1,0 +1,18 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "avalanche.ts",
+      "file_type": "code",
+      "source_file": "avalanche.ts",
+      "source_location": "L1",
+      "id": "avalanche_ts",
+      "community": 0,
+      "norm_label": "avalanche.ts"
+    }
+  ],
+  "links": [],
+  "hyperedges": []
+}

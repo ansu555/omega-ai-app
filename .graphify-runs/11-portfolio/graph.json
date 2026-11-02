@@ -1,0 +1,370 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "AddressManager.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "community": 0,
+      "norm_label": "addressmanager.tsx"
+    },
+    {
+      "label": "saveToLocalStorage()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L62",
+      "id": "addressmanager_savetolocalstorage",
+      "community": 0,
+      "norm_label": "savetolocalstorage()"
+    },
+    {
+      "label": "validateAddress()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L68",
+      "id": "addressmanager_validateaddress",
+      "community": 0,
+      "norm_label": "validateaddress()"
+    },
+    {
+      "label": "handleAddAddress()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L73",
+      "id": "addressmanager_handleaddaddress",
+      "community": 0,
+      "norm_label": "handleaddaddress()"
+    },
+    {
+      "label": "handleDeleteAddress()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L118",
+      "id": "addressmanager_handledeleteaddress",
+      "community": 0,
+      "norm_label": "handledeleteaddress()"
+    },
+    {
+      "label": "handleSelectAddress()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L124",
+      "id": "addressmanager_handleselectaddress",
+      "community": 0,
+      "norm_label": "handleselectaddress()"
+    },
+    {
+      "label": "toggleChain()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L128",
+      "id": "addressmanager_togglechain",
+      "community": 0,
+      "norm_label": "togglechain()"
+    },
+    {
+      "label": "AgentWalletCard.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AgentWalletCard.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_portfolio_agentwalletcard_tsx",
+      "community": 1,
+      "norm_label": "agentwalletcard.tsx"
+    },
+    {
+      "label": "AgentWalletCard()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AgentWalletCard.tsx",
+      "source_location": "L14",
+      "id": "agentwalletcard_agentwalletcard",
+      "community": 1,
+      "norm_label": "agentwalletcard()"
+    },
+    {
+      "label": "NetWorthCard.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/NetWorthCard.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_portfolio_networthcard_tsx",
+      "community": 2,
+      "norm_label": "networthcard.tsx"
+    },
+    {
+      "label": "formatCurrency()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/NetWorthCard.tsx",
+      "source_location": "L20",
+      "id": "networthcard_formatcurrency",
+      "community": 2,
+      "norm_label": "formatcurrency()"
+    },
+    {
+      "label": "PortfolioSummary.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/PortfolioSummary.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_portfolio_portfoliosummary_tsx",
+      "community": 3,
+      "norm_label": "portfoliosummary.tsx"
+    },
+    {
+      "label": "PortfolioSummary()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/PortfolioSummary.tsx",
+      "source_location": "L13",
+      "id": "portfoliosummary_portfoliosummary",
+      "community": 3,
+      "norm_label": "portfoliosummary()"
+    },
+    {
+      "label": "PortfolioTable.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/PortfolioTable.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_portfolio_portfoliotable_tsx",
+      "community": 4,
+      "norm_label": "portfoliotable.tsx"
+    },
+    {
+      "label": "PortfolioTable()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/PortfolioTable.tsx",
+      "source_location": "L36",
+      "id": "portfoliotable_portfoliotable",
+      "community": 4,
+      "norm_label": "portfoliotable()"
+    },
+    {
+      "label": "WalletAnalysisDemo.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/WalletAnalysisDemo.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_portfolio_walletanalysisdemo_tsx",
+      "community": 5,
+      "norm_label": "walletanalysisdemo.tsx"
+    },
+    {
+      "label": "WalletAnalysisDemo()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/WalletAnalysisDemo.tsx",
+      "source_location": "L14",
+      "id": "walletanalysisdemo_walletanalysisdemo",
+      "community": 5,
+      "norm_label": "walletanalysisdemo()"
+    },
+    {
+      "label": "WalletAnalysisPanel.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/WalletAnalysisPanel.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_portfolio_walletanalysispanel_tsx",
+      "community": 6,
+      "norm_label": "walletanalysispanel.tsx"
+    },
+    {
+      "label": "handleRefresh()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/WalletAnalysisPanel.tsx",
+      "source_location": "L18",
+      "id": "walletanalysispanel_handlerefresh",
+      "community": 6,
+      "norm_label": "handlerefresh()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/index.ts",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_portfolio_index_ts",
+      "community": 7,
+      "norm_label": "index.ts"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "_tgt": "addressmanager_savetolocalstorage",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "target": "addressmanager_savetolocalstorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "_tgt": "addressmanager_validateaddress",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "target": "addressmanager_validateaddress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "_tgt": "addressmanager_handleaddaddress",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "target": "addressmanager_handleaddaddress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "_tgt": "addressmanager_handledeleteaddress",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "target": "addressmanager_handledeleteaddress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "_tgt": "addressmanager_handleselectaddress",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "target": "addressmanager_handleselectaddress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "_tgt": "addressmanager_togglechain",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_addressmanager_tsx",
+      "target": "addressmanager_togglechain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_src": "addressmanager_handleaddaddress",
+      "_tgt": "addressmanager_savetolocalstorage",
+      "source": "addressmanager_savetolocalstorage",
+      "target": "addressmanager_handleaddaddress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_src": "addressmanager_handledeleteaddress",
+      "_tgt": "addressmanager_savetolocalstorage",
+      "source": "addressmanager_savetolocalstorage",
+      "target": "addressmanager_handledeleteaddress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AddressManager.tsx",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_src": "addressmanager_handleaddaddress",
+      "_tgt": "addressmanager_validateaddress",
+      "source": "addressmanager_validateaddress",
+      "target": "addressmanager_handleaddaddress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/AgentWalletCard.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_agentwalletcard_tsx",
+      "_tgt": "agentwalletcard_agentwalletcard",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_agentwalletcard_tsx",
+      "target": "agentwalletcard_agentwalletcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/NetWorthCard.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_networthcard_tsx",
+      "_tgt": "networthcard_formatcurrency",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_networthcard_tsx",
+      "target": "networthcard_formatcurrency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/PortfolioSummary.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_portfoliosummary_tsx",
+      "_tgt": "portfoliosummary_portfoliosummary",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_portfoliosummary_tsx",
+      "target": "portfoliosummary_portfoliosummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/PortfolioTable.tsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_portfoliotable_tsx",
+      "_tgt": "portfoliotable_portfoliotable",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_portfoliotable_tsx",
+      "target": "portfoliotable_portfoliotable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/WalletAnalysisDemo.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_walletanalysisdemo_tsx",
+      "_tgt": "walletanalysisdemo_walletanalysisdemo",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_walletanalysisdemo_tsx",
+      "target": "walletanalysisdemo_walletanalysisdemo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/portfolio/WalletAnalysisPanel.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_portfolio_walletanalysispanel_tsx",
+      "_tgt": "walletanalysispanel_handlerefresh",
+      "source": "home_anik2003_documents_omeswap_components_portfolio_walletanalysispanel_tsx",
+      "target": "walletanalysispanel_handlerefresh",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

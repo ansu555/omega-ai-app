@@ -1,0 +1,105 @@
+{
+  "runs": [
+    {
+      "target": "components/layout",
+      "deep_mode": true,
+      "snapshot": "/home/anik2003/Documents/omeswap/.graphify-runs/02-components-layout",
+      "total_files": 6,
+      "total_words": 1274,
+      "nodes": 9,
+      "edges": 3,
+      "communities": 6,
+      "gods": [],
+      "surprises": [],
+      "questions": [
+        {
+          "type": "no_signal",
+          "question": null,
+          "why": "Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges."
+        }
+      ],
+      "benchmark": null
+    },
+    {
+      "target": "components/providers",
+      "deep_mode": true,
+      "snapshot": "/home/anik2003/Documents/omeswap/.graphify-runs/03-components-providers",
+      "total_files": 6,
+      "total_words": 435,
+      "nodes": 13,
+      "edges": 7,
+      "communities": 6,
+      "gods": [],
+      "surprises": [],
+      "questions": [
+        {
+          "type": "no_signal",
+          "question": null,
+          "why": "Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges."
+        }
+      ],
+      "benchmark": null
+    },
+    {
+      "target": "components/shared",
+      "deep_mode": false,
+      "snapshot": "/home/anik2003/Documents/omeswap/.graphify-runs/04-components-shared",
+      "total_files": 2,
+      "total_words": 22,
+      "nodes": 3,
+      "edges": 1,
+      "communities": 2,
+      "gods": [],
+      "surprises": [],
+      "questions": [
+        {
+          "type": "no_signal",
+          "question": null,
+          "why": "Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges."
+        }
+      ],
+      "benchmark": null
+    },
+    {
+      "target": "components/ui",
+      "deep_mode": false,
+      "snapshot": "/home/anik2003/Documents/omeswap/.graphify-runs/05-components-ui",
+      "total_files": 66,
+      "total_words": 23637,
+      "nodes": 120,
+      "edges": 56,
+      "communities": 66,
+      "gods": [
+        {
+          "id": "pill_nav_layout",
+          "label": "layout()",
+          "degree": 2
+        },
+        {
+          "id": "pill_nav_onresize",
+          "label": "onResize()",
+          "degree": 2
+        },
+        {
+          "id": "pill_nav_isexternallink",
+          "label": "isExternalLink()",
+          "degree": 2
+        },
+        {
+          "id": "pill_nav_isrouterlink",
+          "label": "isRouterLink()",
+          "degree": 2
+        }
+      ],
+      "surprises": [],
+      "questions": [
+        {
+          "type": "no_signal",
+          "question": null,
+          "why": "Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges."
+        }
+      ],
+      "benchmark": "graphify token reduction benchmark\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n  Corpus:          23,637 words \u2192 ~31,516 tokens (naive)\n  Graph:           120 nodes, 56 edges\n  Avg query cost:  ~61 tokens\n  Reduction:       516.7x fewer tokens per query\n\n  Per question:\n    [670.6x] what is the main entry point\n    [700.4x] how are errors handled\n    [670.6x] what connects the data layer to the api\n    [297.3x] what are the core abstractions"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.env*.local
+.env
+graphify-out
+graphify-meta
+.graphify-runs
+contract/node_modules
+contract/artifacts
+contract/cache
+realtime-service/node_modules
+.next

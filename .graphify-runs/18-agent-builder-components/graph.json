@@ -1,0 +1,922 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "AgentBlockNode.tsx",
+      "file_type": "code",
+      "source_file": "AgentBlockNode.tsx",
+      "source_location": "L1",
+      "id": "agentblocknode_tsx",
+      "community": 3,
+      "norm_label": "agentblocknode.tsx"
+    },
+    {
+      "label": "handleParameterChange()",
+      "file_type": "code",
+      "source_file": "AgentBlockNode.tsx",
+      "source_location": "L38",
+      "id": "agentblocknode_handleparameterchange",
+      "community": 3,
+      "norm_label": "handleparameterchange()"
+    },
+    {
+      "label": "handleDelete()",
+      "file_type": "code",
+      "source_file": "AgentBlockNode.tsx",
+      "source_location": "L45",
+      "id": "agentblocknode_handledelete",
+      "community": 3,
+      "norm_label": "handledelete()"
+    },
+    {
+      "label": "getHandleColor()",
+      "file_type": "code",
+      "source_file": "AgentBlockNode.tsx",
+      "source_location": "L50",
+      "id": "agentblocknode_gethandlecolor",
+      "community": 3,
+      "norm_label": "gethandlecolor()"
+    },
+    {
+      "label": "AgentManager.tsx",
+      "file_type": "code",
+      "source_file": "AgentManager.tsx",
+      "source_location": "L1",
+      "id": "agentmanager_tsx",
+      "community": 8,
+      "norm_label": "agentmanager.tsx"
+    },
+    {
+      "label": "AgentManager()",
+      "file_type": "code",
+      "source_file": "AgentManager.tsx",
+      "source_location": "L55",
+      "id": "agentmanager_agentmanager",
+      "community": 8,
+      "norm_label": "agentmanager()"
+    },
+    {
+      "label": "AgentToolbar.tsx",
+      "file_type": "code",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L1",
+      "id": "agenttoolbar_tsx",
+      "community": 2,
+      "norm_label": "agenttoolbar.tsx"
+    },
+    {
+      "label": "handleToggleActive()",
+      "file_type": "code",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L57",
+      "id": "agenttoolbar_handletoggleactive",
+      "community": 2,
+      "norm_label": "handletoggleactive()"
+    },
+    {
+      "label": "handleValidate()",
+      "file_type": "code",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L84",
+      "id": "agenttoolbar_handlevalidate",
+      "community": 2,
+      "norm_label": "handlevalidate()"
+    },
+    {
+      "label": "handleExport()",
+      "file_type": "code",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L110",
+      "id": "agenttoolbar_handleexport",
+      "community": 2,
+      "norm_label": "handleexport()"
+    },
+    {
+      "label": "handleImport()",
+      "file_type": "code",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L122",
+      "id": "agenttoolbar_handleimport",
+      "community": 2,
+      "norm_label": "handleimport()"
+    },
+    {
+      "label": "handleReset()",
+      "file_type": "code",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L153",
+      "id": "agenttoolbar_handlereset",
+      "community": 2,
+      "norm_label": "handlereset()"
+    },
+    {
+      "label": "BlockPalette.tsx",
+      "file_type": "code",
+      "source_file": "BlockPalette.tsx",
+      "source_location": "L1",
+      "id": "blockpalette_tsx",
+      "community": 9,
+      "norm_label": "blockpalette.tsx"
+    },
+    {
+      "label": "handleDragStart()",
+      "file_type": "code",
+      "source_file": "BlockPalette.tsx",
+      "source_location": "L29",
+      "id": "blockpalette_handledragstart",
+      "community": 9,
+      "norm_label": "handledragstart()"
+    },
+    {
+      "label": "FlowCanvas.tsx",
+      "file_type": "code",
+      "source_file": "FlowCanvas.tsx",
+      "source_location": "L1",
+      "id": "flowcanvas_tsx",
+      "community": 4,
+      "norm_label": "flowcanvas.tsx"
+    },
+    {
+      "label": "handleFitView()",
+      "file_type": "code",
+      "source_file": "FlowCanvas.tsx",
+      "source_location": "L197",
+      "id": "flowcanvas_handlefitview",
+      "community": 4,
+      "norm_label": "handlefitview()"
+    },
+    {
+      "label": "handleZoomIn()",
+      "file_type": "code",
+      "source_file": "FlowCanvas.tsx",
+      "source_location": "L201",
+      "id": "flowcanvas_handlezoomin",
+      "community": 4,
+      "norm_label": "handlezoomin()"
+    },
+    {
+      "label": "handleZoomOut()",
+      "file_type": "code",
+      "source_file": "FlowCanvas.tsx",
+      "source_location": "L205",
+      "id": "flowcanvas_handlezoomout",
+      "community": 4,
+      "norm_label": "handlezoomout()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "index.ts",
+      "source_location": "L1",
+      "id": "index_ts",
+      "community": 12,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "AgentSidebar.tsx",
+      "file_type": "code",
+      "source_file": "canvas/AgentSidebar.tsx",
+      "source_location": "L1",
+      "id": "canvas_agentsidebar_tsx",
+      "community": 13,
+      "norm_label": "agentsidebar.tsx"
+    },
+    {
+      "label": "BacktestConfigStrip.tsx",
+      "file_type": "code",
+      "source_file": "canvas/BacktestConfigStrip.tsx",
+      "source_location": "L1",
+      "id": "canvas_backtestconfigstrip_tsx",
+      "community": 10,
+      "norm_label": "backtestconfigstrip.tsx"
+    },
+    {
+      "label": "clsx()",
+      "file_type": "code",
+      "source_file": "canvas/BacktestConfigStrip.tsx",
+      "source_location": "L43",
+      "id": "backtestconfigstrip_clsx",
+      "community": 10,
+      "norm_label": "clsx()"
+    },
+    {
+      "label": "BacktestSummaryModal.tsx",
+      "file_type": "code",
+      "source_file": "canvas/BacktestSummaryModal.tsx",
+      "source_location": "L1",
+      "id": "canvas_backtestsummarymodal_tsx",
+      "community": 14,
+      "norm_label": "backtestsummarymodal.tsx"
+    },
+    {
+      "label": "ChartPanel.tsx",
+      "file_type": "code",
+      "source_file": "canvas/ChartPanel.tsx",
+      "source_location": "L1",
+      "id": "canvas_chartpanel_tsx",
+      "community": 7,
+      "norm_label": "chartpanel.tsx"
+    },
+    {
+      "label": "onMove()",
+      "file_type": "code",
+      "source_file": "canvas/ChartPanel.tsx",
+      "source_location": "L68",
+      "id": "chartpanel_onmove",
+      "community": 7,
+      "norm_label": "onmove()"
+    },
+    {
+      "label": "onUp()",
+      "file_type": "code",
+      "source_file": "canvas/ChartPanel.tsx",
+      "source_location": "L75",
+      "id": "chartpanel_onup",
+      "community": 7,
+      "norm_label": "onup()"
+    },
+    {
+      "label": "ConfigPanel.tsx",
+      "file_type": "code",
+      "source_file": "canvas/ConfigPanel.tsx",
+      "source_location": "L1",
+      "id": "canvas_configpanel_tsx",
+      "community": 5,
+      "norm_label": "configpanel.tsx"
+    },
+    {
+      "label": "formatValue()",
+      "file_type": "code",
+      "source_file": "canvas/ConfigPanel.tsx",
+      "source_location": "L17",
+      "id": "configpanel_formatvalue",
+      "community": 5,
+      "norm_label": "formatvalue()"
+    },
+    {
+      "label": "ConfigPanel()",
+      "file_type": "code",
+      "source_file": "canvas/ConfigPanel.tsx",
+      "source_location": "L26",
+      "id": "configpanel_configpanel",
+      "community": 5,
+      "norm_label": "configpanel()"
+    },
+    {
+      "label": "clsx()",
+      "file_type": "code",
+      "source_file": "canvas/ConfigPanel.tsx",
+      "source_location": "L179",
+      "id": "configpanel_clsx",
+      "community": 5,
+      "norm_label": "clsx()"
+    },
+    {
+      "label": "FlowCanvas.tsx",
+      "file_type": "code",
+      "source_file": "canvas/FlowCanvas.tsx",
+      "source_location": "L1",
+      "id": "canvas_flowcanvas_tsx",
+      "community": 11,
+      "norm_label": "flowcanvas.tsx"
+    },
+    {
+      "label": "FlowCanvas()",
+      "file_type": "code",
+      "source_file": "canvas/FlowCanvas.tsx",
+      "source_location": "L24",
+      "id": "flowcanvas_flowcanvas",
+      "community": 11,
+      "norm_label": "flowcanvas()"
+    },
+    {
+      "label": "NodePalette.tsx",
+      "file_type": "code",
+      "source_file": "canvas/NodePalette.tsx",
+      "source_location": "L1",
+      "id": "canvas_nodepalette_tsx",
+      "community": 15,
+      "norm_label": "nodepalette.tsx"
+    },
+    {
+      "label": "ToastContainer.tsx",
+      "file_type": "code",
+      "source_file": "canvas/ToastContainer.tsx",
+      "source_location": "L1",
+      "id": "canvas_toastcontainer_tsx",
+      "community": 16,
+      "norm_label": "toastcontainer.tsx"
+    },
+    {
+      "label": "TopBar.tsx",
+      "file_type": "code",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L1",
+      "id": "canvas_topbar_tsx",
+      "community": 0,
+      "norm_label": "topbar.tsx"
+    },
+    {
+      "label": "syncSignerFromConnectedWallet()",
+      "file_type": "code",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L80",
+      "id": "topbar_syncsignerfromconnectedwallet",
+      "community": 0,
+      "norm_label": "syncsignerfromconnectedwallet()"
+    },
+    {
+      "label": "getScheduleNode()",
+      "file_type": "code",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L114",
+      "id": "topbar_getschedulenode",
+      "community": 0,
+      "norm_label": "getschedulenode()"
+    },
+    {
+      "label": "executeOnce()",
+      "file_type": "code",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L121",
+      "id": "topbar_executeonce",
+      "community": 0,
+      "norm_label": "executeonce()"
+    },
+    {
+      "label": "handleRun()",
+      "file_type": "code",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L136",
+      "id": "topbar_handlerun",
+      "community": 0,
+      "norm_label": "handlerun()"
+    },
+    {
+      "label": "handleBacktest()",
+      "file_type": "code",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L198",
+      "id": "topbar_handlebacktest",
+      "community": 0,
+      "norm_label": "handlebacktest()"
+    },
+    {
+      "label": "clsx()",
+      "file_type": "code",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L450",
+      "id": "topbar_clsx",
+      "community": 0,
+      "norm_label": "clsx()"
+    },
+    {
+      "label": "WorkflowManager.tsx",
+      "file_type": "code",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L1",
+      "id": "canvas_workflowmanager_tsx",
+      "community": 1,
+      "norm_label": "workflowmanager.tsx"
+    },
+    {
+      "label": "handleSave()",
+      "file_type": "code",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L52",
+      "id": "workflowmanager_handlesave",
+      "community": 1,
+      "norm_label": "handlesave()"
+    },
+    {
+      "label": "handleLoad()",
+      "file_type": "code",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L59",
+      "id": "workflowmanager_handleload",
+      "community": 1,
+      "norm_label": "handleload()"
+    },
+    {
+      "label": "handleDelete()",
+      "file_type": "code",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L64",
+      "id": "workflowmanager_handledelete",
+      "community": 1,
+      "norm_label": "handledelete()"
+    },
+    {
+      "label": "handleLoadTemplate()",
+      "file_type": "code",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L70",
+      "id": "workflowmanager_handleloadtemplate",
+      "community": 1,
+      "norm_label": "handleloadtemplate()"
+    },
+    {
+      "label": "handleClear()",
+      "file_type": "code",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L75",
+      "id": "workflowmanager_handleclear",
+      "community": 1,
+      "norm_label": "handleclear()"
+    },
+    {
+      "label": "formatDate()",
+      "file_type": "code",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L81",
+      "id": "workflowmanager_formatdate",
+      "community": 1,
+      "norm_label": "formatdate()"
+    },
+    {
+      "label": "BaseNodeComponent.tsx",
+      "file_type": "code",
+      "source_file": "nodes/BaseNodeComponent.tsx",
+      "source_location": "L1",
+      "id": "nodes_basenodecomponent_tsx",
+      "community": 6,
+      "norm_label": "basenodecomponent.tsx"
+    },
+    {
+      "label": "formatPill()",
+      "file_type": "code",
+      "source_file": "nodes/BaseNodeComponent.tsx",
+      "source_location": "L96",
+      "id": "basenodecomponent_formatpill",
+      "community": 6,
+      "norm_label": "formatpill()"
+    },
+    {
+      "label": "formatInlineValue()",
+      "file_type": "code",
+      "source_file": "nodes/BaseNodeComponent.tsx",
+      "source_location": "L106",
+      "id": "basenodecomponent_formatinlinevalue",
+      "community": 6,
+      "norm_label": "formatinlinevalue()"
+    },
+    {
+      "label": "clsx()",
+      "file_type": "code",
+      "source_file": "nodes/BaseNodeComponent.tsx",
+      "source_location": "L164",
+      "id": "basenodecomponent_clsx",
+      "community": 6,
+      "norm_label": "clsx()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentBlockNode.tsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "agentblocknode_tsx",
+      "_tgt": "agentblocknode_handleparameterchange",
+      "source": "agentblocknode_tsx",
+      "target": "agentblocknode_handleparameterchange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentBlockNode.tsx",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_src": "agentblocknode_tsx",
+      "_tgt": "agentblocknode_handledelete",
+      "source": "agentblocknode_tsx",
+      "target": "agentblocknode_handledelete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentBlockNode.tsx",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_src": "agentblocknode_tsx",
+      "_tgt": "agentblocknode_gethandlecolor",
+      "source": "agentblocknode_tsx",
+      "target": "agentblocknode_gethandlecolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentManager.tsx",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_src": "agentmanager_tsx",
+      "_tgt": "agentmanager_agentmanager",
+      "source": "agentmanager_tsx",
+      "target": "agentmanager_agentmanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_src": "agenttoolbar_tsx",
+      "_tgt": "agenttoolbar_handletoggleactive",
+      "source": "agenttoolbar_tsx",
+      "target": "agenttoolbar_handletoggleactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_src": "agenttoolbar_tsx",
+      "_tgt": "agenttoolbar_handlevalidate",
+      "source": "agenttoolbar_tsx",
+      "target": "agenttoolbar_handlevalidate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_src": "agenttoolbar_tsx",
+      "_tgt": "agenttoolbar_handleexport",
+      "source": "agenttoolbar_tsx",
+      "target": "agenttoolbar_handleexport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_src": "agenttoolbar_tsx",
+      "_tgt": "agenttoolbar_handleimport",
+      "source": "agenttoolbar_tsx",
+      "target": "agenttoolbar_handleimport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AgentToolbar.tsx",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_src": "agenttoolbar_tsx",
+      "_tgt": "agenttoolbar_handlereset",
+      "source": "agenttoolbar_tsx",
+      "target": "agenttoolbar_handlereset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BlockPalette.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_src": "blockpalette_tsx",
+      "_tgt": "blockpalette_handledragstart",
+      "source": "blockpalette_tsx",
+      "target": "blockpalette_handledragstart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FlowCanvas.tsx",
+      "source_location": "L197",
+      "weight": 1.0,
+      "_src": "flowcanvas_tsx",
+      "_tgt": "flowcanvas_handlefitview",
+      "source": "flowcanvas_tsx",
+      "target": "flowcanvas_handlefitview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FlowCanvas.tsx",
+      "source_location": "L201",
+      "weight": 1.0,
+      "_src": "flowcanvas_tsx",
+      "_tgt": "flowcanvas_handlezoomin",
+      "source": "flowcanvas_tsx",
+      "target": "flowcanvas_handlezoomin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FlowCanvas.tsx",
+      "source_location": "L205",
+      "weight": 1.0,
+      "_src": "flowcanvas_tsx",
+      "_tgt": "flowcanvas_handlezoomout",
+      "source": "flowcanvas_tsx",
+      "target": "flowcanvas_handlezoomout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/BacktestConfigStrip.tsx",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "canvas_backtestconfigstrip_tsx",
+      "_tgt": "backtestconfigstrip_clsx",
+      "source": "canvas_backtestconfigstrip_tsx",
+      "target": "backtestconfigstrip_clsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/ChartPanel.tsx",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_src": "canvas_chartpanel_tsx",
+      "_tgt": "chartpanel_onmove",
+      "source": "canvas_chartpanel_tsx",
+      "target": "chartpanel_onmove",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/ChartPanel.tsx",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_src": "canvas_chartpanel_tsx",
+      "_tgt": "chartpanel_onup",
+      "source": "canvas_chartpanel_tsx",
+      "target": "chartpanel_onup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/ConfigPanel.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "canvas_configpanel_tsx",
+      "_tgt": "configpanel_formatvalue",
+      "source": "canvas_configpanel_tsx",
+      "target": "configpanel_formatvalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/ConfigPanel.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_src": "canvas_configpanel_tsx",
+      "_tgt": "configpanel_configpanel",
+      "source": "canvas_configpanel_tsx",
+      "target": "configpanel_configpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/ConfigPanel.tsx",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_src": "canvas_configpanel_tsx",
+      "_tgt": "configpanel_clsx",
+      "source": "canvas_configpanel_tsx",
+      "target": "configpanel_clsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/FlowCanvas.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_src": "canvas_flowcanvas_tsx",
+      "_tgt": "flowcanvas_flowcanvas",
+      "source": "canvas_flowcanvas_tsx",
+      "target": "flowcanvas_flowcanvas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_src": "canvas_topbar_tsx",
+      "_tgt": "topbar_syncsignerfromconnectedwallet",
+      "source": "canvas_topbar_tsx",
+      "target": "topbar_syncsignerfromconnectedwallet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_src": "canvas_topbar_tsx",
+      "_tgt": "topbar_getschedulenode",
+      "source": "canvas_topbar_tsx",
+      "target": "topbar_getschedulenode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_src": "canvas_topbar_tsx",
+      "_tgt": "topbar_executeonce",
+      "source": "canvas_topbar_tsx",
+      "target": "topbar_executeonce",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L136",
+      "weight": 1.0,
+      "_src": "canvas_topbar_tsx",
+      "_tgt": "topbar_handlerun",
+      "source": "canvas_topbar_tsx",
+      "target": "topbar_handlerun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L198",
+      "weight": 1.0,
+      "_src": "canvas_topbar_tsx",
+      "_tgt": "topbar_handlebacktest",
+      "source": "canvas_topbar_tsx",
+      "target": "topbar_handlebacktest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L491",
+      "weight": 1.0,
+      "_src": "canvas_topbar_tsx",
+      "_tgt": "topbar_clsx",
+      "source": "canvas_topbar_tsx",
+      "target": "topbar_clsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_src": "topbar_handlerun",
+      "_tgt": "topbar_getschedulenode",
+      "source": "topbar_getschedulenode",
+      "target": "topbar_handlerun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/TopBar.tsx",
+      "source_location": "L170",
+      "weight": 1.0,
+      "_src": "topbar_handlerun",
+      "_tgt": "topbar_executeonce",
+      "source": "topbar_executeonce",
+      "target": "topbar_handlerun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_src": "canvas_workflowmanager_tsx",
+      "_tgt": "workflowmanager_handlesave",
+      "source": "canvas_workflowmanager_tsx",
+      "target": "workflowmanager_handlesave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_src": "canvas_workflowmanager_tsx",
+      "_tgt": "workflowmanager_handleload",
+      "source": "canvas_workflowmanager_tsx",
+      "target": "workflowmanager_handleload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_src": "canvas_workflowmanager_tsx",
+      "_tgt": "workflowmanager_handledelete",
+      "source": "canvas_workflowmanager_tsx",
+      "target": "workflowmanager_handledelete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_src": "canvas_workflowmanager_tsx",
+      "_tgt": "workflowmanager_handleloadtemplate",
+      "source": "canvas_workflowmanager_tsx",
+      "target": "workflowmanager_handleloadtemplate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_src": "canvas_workflowmanager_tsx",
+      "_tgt": "workflowmanager_handleclear",
+      "source": "canvas_workflowmanager_tsx",
+      "target": "workflowmanager_handleclear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "canvas/WorkflowManager.tsx",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_src": "canvas_workflowmanager_tsx",
+      "_tgt": "workflowmanager_formatdate",
+      "source": "canvas_workflowmanager_tsx",
+      "target": "workflowmanager_formatdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nodes/BaseNodeComponent.tsx",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_src": "nodes_basenodecomponent_tsx",
+      "_tgt": "basenodecomponent_formatpill",
+      "source": "nodes_basenodecomponent_tsx",
+      "target": "basenodecomponent_formatpill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nodes/BaseNodeComponent.tsx",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_src": "nodes_basenodecomponent_tsx",
+      "_tgt": "basenodecomponent_formatinlinevalue",
+      "source": "nodes_basenodecomponent_tsx",
+      "target": "basenodecomponent_formatinlinevalue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nodes/BaseNodeComponent.tsx",
+      "source_location": "L164",
+      "weight": 1.0,
+      "_src": "nodes_basenodecomponent_tsx",
+      "_tgt": "basenodecomponent_clsx",
+      "source": "nodes_basenodecomponent_tsx",
+      "target": "basenodecomponent_clsx",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

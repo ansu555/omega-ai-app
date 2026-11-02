@@ -1,0 +1,56 @@
+{
+  "runs": [
+    {
+      "date": "2026-04-18T10:08:24.868896+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 15
+    },
+    {
+      "date": "2026-04-18T10:29:35.692890+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 6
+    },
+    {
+      "date": "2026-04-18T10:29:35.710335+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 6
+    },
+    {
+      "date": "2026-04-18T10:29:35.715772+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 2
+    },
+    {
+      "date": "2026-04-18T10:29:35.939069+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 66
+    },
+    {
+      "date": "2026-04-18T10:40:48.130795+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 53
+    },
+    {
+      "date": "2026-04-18T11:51:36.799311+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 7,
+      "path": "public"
+    },
+    {
+      "date": "2026-04-18T11:53:57.917036+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 5,
+      "path": "avax-agent/public"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0
+}

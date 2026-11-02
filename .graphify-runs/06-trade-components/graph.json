@@ -1,0 +1,313 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "AddLiquidityCard.tsx",
+      "file_type": "code",
+      "source_file": "AddLiquidityCard.tsx",
+      "source_location": "L1",
+      "id": "addliquiditycard_tsx",
+      "community": 2,
+      "norm_label": "addliquiditycard.tsx"
+    },
+    {
+      "label": "handleAmount0Change()",
+      "file_type": "code",
+      "source_file": "AddLiquidityCard.tsx",
+      "source_location": "L47",
+      "id": "addliquiditycard_handleamount0change",
+      "community": 2,
+      "norm_label": "handleamount0change()"
+    },
+    {
+      "label": "handleAmount1Change()",
+      "file_type": "code",
+      "source_file": "AddLiquidityCard.tsx",
+      "source_location": "L55",
+      "id": "addliquiditycard_handleamount1change",
+      "community": 2,
+      "norm_label": "handleamount1change()"
+    },
+    {
+      "label": "CryptoLogoCursor.tsx",
+      "file_type": "code",
+      "source_file": "CryptoLogoCursor.tsx",
+      "source_location": "L1",
+      "id": "cryptologocursor_tsx",
+      "community": 3,
+      "norm_label": "cryptologocursor.tsx"
+    },
+    {
+      "label": "CryptoLogoCursor()",
+      "file_type": "code",
+      "source_file": "CryptoLogoCursor.tsx",
+      "source_location": "L38",
+      "id": "cryptologocursor_cryptologocursor",
+      "community": 3,
+      "norm_label": "cryptologocursor()"
+    },
+    {
+      "label": "PoolLiquidity.tsx",
+      "file_type": "code",
+      "source_file": "PoolLiquidity.tsx",
+      "source_location": "L1",
+      "id": "poolliquidity_tsx",
+      "community": 4,
+      "norm_label": "poolliquidity.tsx"
+    },
+    {
+      "label": "PoolLiquidity()",
+      "file_type": "code",
+      "source_file": "PoolLiquidity.tsx",
+      "source_location": "L11",
+      "id": "poolliquidity_poolliquidity",
+      "community": 4,
+      "norm_label": "poolliquidity()"
+    },
+    {
+      "label": "SelectedPoolInfo.tsx",
+      "file_type": "code",
+      "source_file": "SelectedPoolInfo.tsx",
+      "source_location": "L1",
+      "id": "selectedpoolinfo_tsx",
+      "community": 5,
+      "norm_label": "selectedpoolinfo.tsx"
+    },
+    {
+      "label": "SelectedPoolInfo()",
+      "file_type": "code",
+      "source_file": "SelectedPoolInfo.tsx",
+      "source_location": "L16",
+      "id": "selectedpoolinfo_selectedpoolinfo",
+      "community": 5,
+      "norm_label": "selectedpoolinfo()"
+    },
+    {
+      "label": "SwapCard.tsx",
+      "file_type": "code",
+      "source_file": "SwapCard.tsx",
+      "source_location": "L1",
+      "id": "swapcard_tsx",
+      "community": 0,
+      "norm_label": "swapcard.tsx"
+    },
+    {
+      "label": "handleSwapDirection()",
+      "file_type": "code",
+      "source_file": "SwapCard.tsx",
+      "source_location": "L63",
+      "id": "swapcard_handleswapdirection",
+      "community": 0,
+      "norm_label": "handleswapdirection()"
+    },
+    {
+      "label": "handlePayAmountChange()",
+      "file_type": "code",
+      "source_file": "SwapCard.tsx",
+      "source_location": "L70",
+      "id": "swapcard_handlepayamountchange",
+      "community": 0,
+      "norm_label": "handlepayamountchange()"
+    },
+    {
+      "label": "handleTokenSelect()",
+      "file_type": "code",
+      "source_file": "SwapCard.tsx",
+      "source_location": "L80",
+      "id": "swapcard_handletokenselect",
+      "community": 0,
+      "norm_label": "handletokenselect()"
+    },
+    {
+      "label": "SwapCardDex.tsx",
+      "file_type": "code",
+      "source_file": "SwapCardDex.tsx",
+      "source_location": "L1",
+      "id": "swapcarddex_tsx",
+      "community": 1,
+      "norm_label": "swapcarddex.tsx"
+    },
+    {
+      "label": "handleSwapDirection()",
+      "file_type": "code",
+      "source_file": "SwapCardDex.tsx",
+      "source_location": "L65",
+      "id": "swapcarddex_handleswapdirection",
+      "community": 1,
+      "norm_label": "handleswapdirection()"
+    },
+    {
+      "label": "handleTokenSelect()",
+      "file_type": "code",
+      "source_file": "SwapCardDex.tsx",
+      "source_location": "L71",
+      "id": "swapcarddex_handletokenselect",
+      "community": 1,
+      "norm_label": "handletokenselect()"
+    },
+    {
+      "label": "TokenIcon()",
+      "file_type": "code",
+      "source_file": "SwapCardDex.tsx",
+      "source_location": "L90",
+      "id": "swapcarddex_tokenicon",
+      "community": 1,
+      "norm_label": "tokenicon()"
+    },
+    {
+      "label": "SwapHistory.tsx",
+      "file_type": "code",
+      "source_file": "SwapHistory.tsx",
+      "source_location": "L1",
+      "id": "swaphistory_tsx",
+      "community": 6,
+      "norm_label": "swaphistory.tsx"
+    },
+    {
+      "label": "ToggleSection.tsx",
+      "file_type": "code",
+      "source_file": "ToggleSection.tsx",
+      "source_location": "L1",
+      "id": "togglesection_tsx",
+      "community": 7,
+      "norm_label": "togglesection.tsx"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AddLiquidityCard.tsx",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_src": "addliquiditycard_tsx",
+      "_tgt": "addliquiditycard_handleamount0change",
+      "source": "addliquiditycard_tsx",
+      "target": "addliquiditycard_handleamount0change",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AddLiquidityCard.tsx",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_src": "addliquiditycard_tsx",
+      "_tgt": "addliquiditycard_handleamount1change",
+      "source": "addliquiditycard_tsx",
+      "target": "addliquiditycard_handleamount1change",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CryptoLogoCursor.tsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "cryptologocursor_tsx",
+      "_tgt": "cryptologocursor_cryptologocursor",
+      "source": "cryptologocursor_tsx",
+      "target": "cryptologocursor_cryptologocursor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PoolLiquidity.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "poolliquidity_tsx",
+      "_tgt": "poolliquidity_poolliquidity",
+      "source": "poolliquidity_tsx",
+      "target": "poolliquidity_poolliquidity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SelectedPoolInfo.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "selectedpoolinfo_tsx",
+      "_tgt": "selectedpoolinfo_selectedpoolinfo",
+      "source": "selectedpoolinfo_tsx",
+      "target": "selectedpoolinfo_selectedpoolinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SwapCard.tsx",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_src": "swapcard_tsx",
+      "_tgt": "swapcard_handleswapdirection",
+      "source": "swapcard_tsx",
+      "target": "swapcard_handleswapdirection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SwapCard.tsx",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_src": "swapcard_tsx",
+      "_tgt": "swapcard_handlepayamountchange",
+      "source": "swapcard_tsx",
+      "target": "swapcard_handlepayamountchange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SwapCard.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_src": "swapcard_tsx",
+      "_tgt": "swapcard_handletokenselect",
+      "source": "swapcard_tsx",
+      "target": "swapcard_handletokenselect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SwapCardDex.tsx",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_src": "swapcarddex_tsx",
+      "_tgt": "swapcarddex_handleswapdirection",
+      "source": "swapcarddex_tsx",
+      "target": "swapcarddex_handleswapdirection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SwapCardDex.tsx",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_src": "swapcarddex_tsx",
+      "_tgt": "swapcarddex_handletokenselect",
+      "source": "swapcarddex_tsx",
+      "target": "swapcarddex_handletokenselect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SwapCardDex.tsx",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_src": "swapcarddex_tsx",
+      "_tgt": "swapcarddex_tokenicon",
+      "source": "swapcarddex_tsx",
+      "target": "swapcarddex_tokenicon",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

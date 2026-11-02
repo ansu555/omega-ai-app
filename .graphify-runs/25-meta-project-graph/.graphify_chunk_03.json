@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "id": "app_builder_agent_builder_page_tsx",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/(builder)/agent-builder/page.tsx"
+    },
+    {
+      "id": "page_resolvenodetype",
+      "label": "resolveNodeType()",
+      "file_type": "code",
+      "source_file": "app/(builder)/agent-builder/page.tsx"
+    },
+    {
+      "id": "page_agentbuilderpage",
+      "label": "AgentBuilderPage()",
+      "file_type": "code",
+      "source_file": "app/(builder)/agent-builder/page.tsx"
+    }
+  ],
+  "edges": [
+    {
+      "source": "app_builder_agent_builder_page_tsx",
+      "target": "page_resolvenodetype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/(builder)/graphify-out/graph.html"
+    },
+    {
+      "source": "app_builder_agent_builder_page_tsx",
+      "target": "page_agentbuilderpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/(builder)/graphify-out/graph.html"
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

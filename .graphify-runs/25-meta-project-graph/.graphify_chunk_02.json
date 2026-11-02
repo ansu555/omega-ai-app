@@ -1,0 +1,1051 @@
+{
+  "nodes": [
+    {
+      "id": "addliquiditycard_tsx",
+      "label": "AddLiquidityCard.tsx",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "addliquiditycard_handleamount0change",
+      "label": "handleAmount0Change()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "addliquiditycard_handleamount1change",
+      "label": "handleAmount1Change()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "cryptologocursor_tsx",
+      "label": "CryptoLogoCursor.tsx",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "cryptologocursor_cryptologocursor",
+      "label": "CryptoLogoCursor()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "poolliquidity_tsx",
+      "label": "PoolLiquidity.tsx",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "poolliquidity_poolliquidity",
+      "label": "PoolLiquidity()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "selectedpoolinfo_tsx",
+      "label": "SelectedPoolInfo.tsx",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "selectedpoolinfo_selectedpoolinfo",
+      "label": "SelectedPoolInfo()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "swapcard_tsx",
+      "label": "SwapCard.tsx",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "swapcard_handleswapdirection",
+      "label": "handleSwapDirection()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "swapcard_handlepayamountchange",
+      "label": "handlePayAmountChange()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "swapcard_handletokenselect",
+      "label": "handleTokenSelect()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "swapcarddex_tsx",
+      "label": "SwapCardDex.tsx",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "swapcarddex_handleswapdirection",
+      "label": "handleSwapDirection()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "swapcarddex_handletokenselect",
+      "label": "handleTokenSelect()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "swapcarddex_tokenicon",
+      "label": "TokenIcon()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "swaphistory_tsx",
+      "label": "SwapHistory.tsx",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "togglesection_tsx",
+      "label": "ToggleSection.tsx",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "community_swap_card",
+      "label": "Swap Card Community",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "community_dex_swap_card",
+      "label": "DEX Swap Card Community",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "community_add_liquidity",
+      "label": "Add Liquidity Community",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "community_logo_cursor",
+      "label": "Logo Cursor Community",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "community_pool_liquidity",
+      "label": "Pool Liquidity Community",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "community_pool_details",
+      "label": "Pool Details Community",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "community_swap_history",
+      "label": "Swap History Community",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "community_toggle_section",
+      "label": "Toggle Section Community",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graph_report_single_context_rationale",
+      "label": "Single Context Window Rationale",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_graph_necessity",
+      "label": "Graph Necessity Decision",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graph_report_thin_community_rationale",
+      "label": "Thin Community Diagnosis Rationale",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_extraction_noise_or_missing_links",
+      "label": "Noise vs Missing Connections Hypothesis",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graph_report_low_signal_rationale",
+      "label": "Low Signal Explanation",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_question_generation_signal",
+      "label": "Question Generation Signal",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_deep_mode_recommendation",
+      "label": "Run With Deep Mode Recommendation",
+      "file_type": "document",
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphhtml_showinfo_fn",
+      "label": "showInfo()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphhtml_focusnode_fn",
+      "label": "focusNode()",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphhtml_search_select_handler",
+      "label": "Search Result Select Handler",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graphhtml_legend_toggle_handler",
+      "label": "Community Legend Toggle Handler",
+      "file_type": "code",
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "addliquiditycard_tsx",
+      "target": "addliquiditycard_handleamount0change",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "addliquiditycard_tsx",
+      "target": "addliquiditycard_handleamount1change",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "cryptologocursor_tsx",
+      "target": "cryptologocursor_cryptologocursor",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "poolliquidity_tsx",
+      "target": "poolliquidity_poolliquidity",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "selectedpoolinfo_tsx",
+      "target": "selectedpoolinfo_selectedpoolinfo",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcard_tsx",
+      "target": "swapcard_handleswapdirection",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcard_tsx",
+      "target": "swapcard_handlepayamountchange",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcard_tsx",
+      "target": "swapcard_handletokenselect",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcarddex_tsx",
+      "target": "swapcarddex_handleswapdirection",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcarddex_tsx",
+      "target": "swapcarddex_handletokenselect",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcarddex_tsx",
+      "target": "swapcarddex_tokenicon",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcard_tsx",
+      "target": "community_swap_card",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcarddex_tsx",
+      "target": "community_dex_swap_card",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "addliquiditycard_tsx",
+      "target": "community_add_liquidity",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "cryptologocursor_tsx",
+      "target": "community_logo_cursor",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "poolliquidity_tsx",
+      "target": "community_pool_liquidity",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "selectedpoolinfo_tsx",
+      "target": "community_pool_details",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swaphistory_tsx",
+      "target": "community_swap_history",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "togglesection_tsx",
+      "target": "community_toggle_section",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_focusnode_fn",
+      "target": "graphhtml_showinfo_fn",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_showinfo_fn",
+      "target": "graphhtml_focusnode_fn",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_search_select_handler",
+      "target": "graphhtml_focusnode_fn",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_search_select_handler",
+      "target": "graphhtml_showinfo_fn",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graph_report_single_context_rationale",
+      "target": "concept_graph_necessity",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graph_report_thin_community_rationale",
+      "target": "concept_extraction_noise_or_missing_links",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graph_report_low_signal_rationale",
+      "target": "concept_question_generation_signal",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graph_report_low_signal_rationale",
+      "target": "concept_deep_mode_recommendation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graph_report_thin_community_rationale",
+      "target": "community_logo_cursor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graph_report_thin_community_rationale",
+      "target": "community_pool_liquidity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graph_report_thin_community_rationale",
+      "target": "community_pool_details",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graph_report_thin_community_rationale",
+      "target": "community_swap_history",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graph_report_thin_community_rationale",
+      "target": "community_toggle_section",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_legend_toggle_handler",
+      "target": "community_swap_card",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_legend_toggle_handler",
+      "target": "community_dex_swap_card",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_legend_toggle_handler",
+      "target": "community_add_liquidity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_legend_toggle_handler",
+      "target": "community_logo_cursor",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_legend_toggle_handler",
+      "target": "community_pool_liquidity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_legend_toggle_handler",
+      "target": "community_pool_details",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_legend_toggle_handler",
+      "target": "community_swap_history",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graphhtml_legend_toggle_handler",
+      "target": "community_toggle_section",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcard_tsx",
+      "target": "swapcarddex_tsx",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcard_handleswapdirection",
+      "target": "swapcarddex_handleswapdirection",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swapcard_handletokenselect",
+      "target": "swapcarddex_handletokenselect",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "addliquiditycard_handleamount0change",
+      "target": "addliquiditycard_handleamount1change",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "selectedpoolinfo_tsx",
+      "target": "poolliquidity_tsx",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.84,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "addliquiditycard_tsx",
+      "target": "poolliquidity_tsx",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "addliquiditycard_tsx",
+      "target": "selectedpoolinfo_tsx",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.69,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "swaphistory_tsx",
+      "target": "swapcard_tsx",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.66,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "community_swap_card",
+      "target": "community_dex_swap_card",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "concept_deep_mode_recommendation",
+      "target": "concept_question_generation_signal",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.83,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "concept_graph_necessity",
+      "target": "concept_question_generation_signal",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.64,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "graph_report_low_signal_rationale",
+      "target": "concept_extraction_noise_or_missing_links",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.64,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "community_logo_cursor",
+      "target": "concept_extraction_noise_or_missing_links",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.23,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "community_pool_liquidity",
+      "target": "concept_extraction_noise_or_missing_links",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.23,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "community_pool_details",
+      "target": "concept_extraction_noise_or_missing_links",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.23,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "community_swap_history",
+      "target": "concept_extraction_noise_or_missing_links",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.23,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "community_toggle_section",
+      "target": "concept_extraction_noise_or_missing_links",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.23,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "togglesection_tsx",
+      "target": "swapcard_tsx",
+      "relation": "conceptually_related_to",
+      "confidence": "AMBIGUOUS",
+      "confidence_score": 0.2,
+      "source_file": "components/trade/graphify-out/graph.html",
+      "source_location": null,
+      "weight": 1
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "swap_card_interaction_flow",
+      "label": "Swap Card Interaction Flow",
+      "nodes": [
+        "swapcard_tsx",
+        "swapcard_handleswapdirection",
+        "swapcard_handlepayamountchange",
+        "swapcard_handletokenselect"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "components/trade/graphify-out/graph.html"
+    },
+    {
+      "id": "dex_swap_card_interaction_flow",
+      "label": "DEX Swap Card Interaction Flow",
+      "nodes": [
+        "swapcarddex_tsx",
+        "swapcarddex_handleswapdirection",
+        "swapcarddex_handletokenselect",
+        "swapcarddex_tokenicon"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "components/trade/graphify-out/graph.html"
+    },
+    {
+      "id": "thin_communities_knowledge_gap",
+      "label": "Thin Communities Knowledge Gap Pattern",
+      "nodes": [
+        "community_logo_cursor",
+        "community_pool_liquidity",
+        "community_pool_details",
+        "community_swap_history",
+        "community_toggle_section"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "components/trade/graphify-out/GRAPH_REPORT.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
