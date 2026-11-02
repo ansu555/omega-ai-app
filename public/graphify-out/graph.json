@@ -1,0 +1,225 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "bento_uniswap_ecosystem",
+        "label": "Uniswap ecosystem marketing bento set",
+        "nodes": [
+          "liquidityprovisions_bento_art",
+          "tradingapi_bento_art",
+          "unichain_bento_art",
+          "uniswapx_bg_lightning",
+          "uniswapx_wordmark_ui"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.75,
+        "source_file": "public/bento/LiquidityProvisions.svg"
+      },
+      {
+        "id": "bento_uniswap_ecosystem",
+        "label": "Uniswap ecosystem marketing bento set",
+        "nodes": [
+          "liquidityprovisions_bento_art",
+          "tradingapi_bento_art",
+          "unichain_bento_art",
+          "uniswapx_bg_lightning",
+          "uniswapx_wordmark_ui"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.75,
+        "source_file": "public/bento/LiquidityProvisions.svg"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Omeswap purple swirl brand mark",
+      "file_type": "image",
+      "source_file": "public/logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_omeswap_mark",
+      "community": 1,
+      "norm_label": "omeswap purple swirl brand mark"
+    },
+    {
+      "label": "Omeswap Explore dashboard marketing screenshot",
+      "file_type": "image",
+      "source_file": "public/swap-preview.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "swap_preview_explore_dashboard",
+      "community": 1,
+      "norm_label": "omeswap explore dashboard marketing screenshot"
+    },
+    {
+      "label": "Liquidity provisions bento illustration",
+      "file_type": "image",
+      "source_file": "public/bento/LiquidityProvisions.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "liquidityprovisions_bento_art",
+      "community": 0,
+      "norm_label": "liquidity provisions bento illustration"
+    },
+    {
+      "label": "Trading API bento illustration",
+      "file_type": "image",
+      "source_file": "public/bento/TradingAPI.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "tradingapi_bento_art",
+      "community": 0,
+      "norm_label": "trading api bento illustration"
+    },
+    {
+      "label": "Unichain bento graphic",
+      "file_type": "image",
+      "source_file": "public/bento/Unichain.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "unichain_bento_art",
+      "community": 0,
+      "norm_label": "unichain bento graphic"
+    },
+    {
+      "label": "UniswapX purple lightning background",
+      "file_type": "image",
+      "source_file": "public/bento/UniswapX-bg.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "uniswapx_bg_lightning",
+      "community": 2,
+      "norm_label": "uniswapx purple lightning background"
+    },
+    {
+      "label": "UniswapX wordmark and gasless swap UI chrome",
+      "file_type": "image",
+      "source_file": "public/bento/UniswapX.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "uniswapx_wordmark_ui",
+      "community": 2,
+      "norm_label": "uniswapx wordmark and gasless swap ui chrome"
+    }
+  ],
+  "links": [
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/logo.png",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "logo_omeswap_mark",
+      "_tgt": "swap_preview_explore_dashboard",
+      "source": "logo_omeswap_mark",
+      "target": "swap_preview_explore_dashboard"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "public/swap-preview.png",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "swap_preview_explore_dashboard",
+      "_tgt": "tradingapi_bento_art",
+      "source": "swap_preview_explore_dashboard",
+      "target": "tradingapi_bento_art"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.72,
+      "source_file": "public/bento/LiquidityProvisions.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "liquidityprovisions_bento_art",
+      "_tgt": "tradingapi_bento_art",
+      "source": "liquidityprovisions_bento_art",
+      "target": "tradingapi_bento_art"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.68,
+      "source_file": "public/bento/LiquidityProvisions.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "liquidityprovisions_bento_art",
+      "_tgt": "unichain_bento_art",
+      "source": "liquidityprovisions_bento_art",
+      "target": "unichain_bento_art"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/bento/UniswapX.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "uniswapx_bg_lightning",
+      "_tgt": "uniswapx_wordmark_ui",
+      "source": "uniswapx_bg_lightning",
+      "target": "uniswapx_wordmark_ui"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "bento_uniswap_ecosystem",
+      "label": "Uniswap ecosystem marketing bento set",
+      "nodes": [
+        "liquidityprovisions_bento_art",
+        "tradingapi_bento_art",
+        "unichain_bento_art",
+        "uniswapx_bg_lightning",
+        "uniswapx_wordmark_ui"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/bento/LiquidityProvisions.svg"
+    },
+    {
+      "id": "bento_uniswap_ecosystem",
+      "label": "Uniswap ecosystem marketing bento set",
+      "nodes": [
+        "liquidityprovisions_bento_art",
+        "tradingapi_bento_art",
+        "unichain_bento_art",
+        "uniswapx_bg_lightning",
+        "uniswapx_wordmark_ui"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/bento/LiquidityProvisions.svg"
+    }
+  ]
+}
