@@ -1,0 +1,302 @@
+[
+  {
+    "id": "btc_dominance_altcoin_rotation",
+    "name": "BTC Dominance Drop → Altcoin Season",
+    "description": "When BTC dominance falls below ~48%, capital historically rotates into altcoins, producing broad altcoin rallies while BTC consolidates.",
+    "trigger_condition": "BTC.d < 48%",
+    "expected_impact": "positive",
+    "affected_assets": ["ETH", "SOL", "BNB", "AVAX", "MATIC", "LINK"],
+    "typical_duration_hours": 168,
+    "historical_reliability": 0.72
+  },
+  {
+    "id": "fed_rate_hike_risk_off",
+    "name": "Fed Rate Hike → Crypto Risk-Off",
+    "description": "Federal Reserve interest-rate increases trigger risk-off sentiment; investors rotate out of speculative assets including crypto into USD and Treasuries.",
+    "trigger_condition": "FOMC rate increase announced or CPI > expectations",
+    "expected_impact": "negative",
+    "affected_assets": ["BTC", "ETH", "SOL", "AVAX", "ARB"],
+    "typical_duration_hours": 72,
+    "historical_reliability": 0.78
+  },
+  {
+    "id": "stablecoin_depeg",
+    "name": "Stablecoin De-peg → Contagion Selloff",
+    "description": "A major stablecoin (USDT, USDC, DAI) trading significantly off peg triggers panic selling and liquidity flight across crypto markets.",
+    "trigger_condition": "stablecoin price < $0.97 or > $1.03 for 15+ minutes",
+    "expected_impact": "negative",
+    "affected_assets": ["BTC", "ETH", "SOL", "AVAX", "BNB"],
+    "typical_duration_hours": 48,
+    "historical_reliability": 0.85
+  },
+  {
+    "id": "btc_halving_bull_cycle",
+    "name": "BTC Halving → Supply Shock Bull Cycle",
+    "description": "Every ~4 years BTC block rewards halve, reducing miner-driven sell pressure. Historically preceded a 12–18 month bull cycle 3–6 months post-event.",
+    "trigger_condition": "BTC block reward halving event",
+    "expected_impact": "positive",
+    "affected_assets": ["BTC", "ETH", "SOL", "AVAX"],
+    "typical_duration_hours": 8760,
+    "historical_reliability": 0.80
+  },
+  {
+    "id": "exchange_inflow_spike",
+    "name": "Exchange Inflow Spike → Selling Pressure",
+    "description": "Large on-chain inflows to centralised exchanges signal holders preparing to sell, often preceding short-term price declines.",
+    "trigger_condition": "7-day exchange net inflow > 2 standard deviations above mean",
+    "expected_impact": "negative",
+    "affected_assets": ["BTC", "ETH"],
+    "typical_duration_hours": 24,
+    "historical_reliability": 0.66
+  },
+  {
+    "id": "exchange_outflow_surge",
+    "name": "Exchange Outflow Surge → Accumulation Signal",
+    "description": "Sustained exchange outflows indicate holders withdrawing to cold storage (long-term conviction), reducing liquid supply and supporting prices.",
+    "trigger_condition": "7-day exchange net outflow > 2 standard deviations above mean",
+    "expected_impact": "positive",
+    "affected_assets": ["BTC", "ETH"],
+    "typical_duration_hours": 168,
+    "historical_reliability": 0.63
+  },
+  {
+    "id": "regulatory_ban",
+    "name": "Government Ban / Exchange Crackdown → Sharp Selloff",
+    "description": "Announcements of crypto bans, exchange shutdowns, or severe regulatory actions cause immediate sharp price declines and elevated volatility.",
+    "trigger_condition": "Major government or SEC enforcement action announced",
+    "expected_impact": "negative",
+    "affected_assets": ["BTC", "ETH", "SOL", "AVAX", "BNB"],
+    "typical_duration_hours": 120,
+    "historical_reliability": 0.82
+  },
+  {
+    "id": "institutional_adoption",
+    "name": "Major Institutional Buy / ETF Inflow → Sustained Rally",
+    "description": "Announcement of a major institution (BlackRock, Fidelity, sovereign wealth fund) buying crypto or launching a product drives sustained demand.",
+    "trigger_condition": "ETF filing, major institutional purchase, or sovereign wealth announcement",
+    "expected_impact": "positive",
+    "affected_assets": ["BTC", "ETH"],
+    "typical_duration_hours": 336,
+    "historical_reliability": 0.75
+  },
+  {
+    "id": "miner_capitulation",
+    "name": "Miner Capitulation → Hash Rate Drop + Price Bottom Signal",
+    "description": "When BTC price falls below miner break-even costs, distressed miners sell large reserves, accelerating declines but historically marking bottoms.",
+    "trigger_condition": "Hash-ribbon death cross + sustained hash rate decline > 20%",
+    "expected_impact": "negative",
+    "affected_assets": ["BTC"],
+    "typical_duration_hours": 336,
+    "historical_reliability": 0.70
+  },
+  {
+    "id": "liquidation_cascade",
+    "name": "High Leverage Buildup → Long/Short Squeeze",
+    "description": "Extreme open interest relative to spot volume builds fragile leverage. A catalyst can trigger cascading liquidations amplifying directional moves 2–5×.",
+    "trigger_condition": "Funding rate > 0.1%/8h OR OI/spot volume ratio > 3× average",
+    "expected_impact": "neutral",
+    "affected_assets": ["BTC", "ETH", "SOL"],
+    "typical_duration_hours": 4,
+    "historical_reliability": 0.74
+  },
+  {
+    "id": "fear_greed_extreme_fear",
+    "name": "Extreme Fear Index → Contrarian Buy Signal",
+    "description": "When the Crypto Fear & Greed Index falls below 15 (Extreme Fear), markets are historically oversold and often produce strong 30-day reversals.",
+    "trigger_condition": "Fear & Greed Index < 15",
+    "expected_impact": "positive",
+    "affected_assets": ["BTC", "ETH", "SOL"],
+    "typical_duration_hours": 720,
+    "historical_reliability": 0.68
+  },
+  {
+    "id": "fear_greed_extreme_greed",
+    "name": "Extreme Greed Index → Correction Risk",
+    "description": "When the Crypto Fear & Greed Index exceeds 85 (Extreme Greed), markets are historically overextended and near-term corrections of 10–30% become likely.",
+    "trigger_condition": "Fear & Greed Index > 85",
+    "expected_impact": "negative",
+    "affected_assets": ["BTC", "ETH", "SOL", "AVAX"],
+    "typical_duration_hours": 336,
+    "historical_reliability": 0.65
+  },
+  {
+    "id": "eth_upgrade",
+    "name": "Ethereum Major Upgrade → ETH Outperformance",
+    "description": "Ethereum protocol upgrades (e.g. EIP activations, Dencun, Prague) reduce friction or increase scalability, typically driving ETH outperformance vs BTC.",
+    "trigger_condition": "Ethereum hard fork or major EIP activation",
+    "expected_impact": "positive",
+    "affected_assets": ["ETH", "ARB", "OP", "MATIC"],
+    "typical_duration_hours": 336,
+    "historical_reliability": 0.73
+  },
+  {
+    "id": "defi_protocol_hack",
+    "name": "DeFi Protocol Hack → Sector Selloff",
+    "description": "A large exploit (>$10 M) of a DeFi protocol triggers TVL flight, user panic, and a selloff in related tokens and sometimes the broader market.",
+    "trigger_condition": "DeFi exploit > $10M reported",
+    "expected_impact": "negative",
+    "affected_assets": ["ETH", "AVAX", "BNB", "SOL"],
+    "typical_duration_hours": 48,
+    "historical_reliability": 0.79
+  },
+  {
+    "id": "network_congestion_alt_beneficiary",
+    "name": "ETH Congestion → Alt-L1 / L2 Outperformance",
+    "description": "High Ethereum gas prices drive users and capital to cheaper chains (Solana, AVAX, Arbitrum, Optimism), causing relative outperformance of alt-L1s.",
+    "trigger_condition": "ETH gas price > 80 gwei sustained for 6+ hours",
+    "expected_impact": "positive",
+    "affected_assets": ["SOL", "AVAX", "ARB", "OP"],
+    "typical_duration_hours": 72,
+    "historical_reliability": 0.60
+  },
+  {
+    "id": "macro_recession_fears",
+    "name": "Recession Signals → Risk-Asset Selloff",
+    "description": "Inverted yield curve, rising unemployment, or GDP contraction data trigger broad risk-off moves that correlate crypto with equity markets.",
+    "trigger_condition": "US 2Y/10Y inversion deepens OR GDP estimate revised negative",
+    "expected_impact": "negative",
+    "affected_assets": ["BTC", "ETH", "SOL", "AVAX"],
+    "typical_duration_hours": 720,
+    "historical_reliability": 0.67
+  },
+  {
+    "id": "dxy_weakness",
+    "name": "US Dollar Weakness (DXY Drop) → Crypto Bull",
+    "description": "A weakening US dollar historically correlates with crypto price appreciation as investors seek dollar-alternative stores of value.",
+    "trigger_condition": "DXY 30-day change < -3%",
+    "expected_impact": "positive",
+    "affected_assets": ["BTC", "ETH", "AVAX"],
+    "typical_duration_hours": 720,
+    "historical_reliability": 0.69
+  },
+  {
+    "id": "cross_chain_bridge_exploit",
+    "name": "Cross-Chain Bridge Exploit → Ecosystem Selloff",
+    "description": "Bridge hacks destroy cross-chain liquidity and confidence. Assets bridged via the exploit often crash while the native chain sees collateral damage.",
+    "trigger_condition": "Bridge exploit > $5M reported",
+    "expected_impact": "negative",
+    "affected_assets": ["ETH", "AVAX", "SOL", "ARB"],
+    "typical_duration_hours": 72,
+    "historical_reliability": 0.77
+  },
+  {
+    "id": "btc_spot_etf_inflows",
+    "name": "BTC Spot ETF Inflow Surge → Demand Driven Rally",
+    "description": "Consecutive days of large net inflows into Bitcoin spot ETFs (e.g. BlackRock IBIT) signal sustained institutional demand and drive price appreciation.",
+    "trigger_condition": "ETF net inflows > $500M for 3+ consecutive days",
+    "expected_impact": "positive",
+    "affected_assets": ["BTC", "ETH"],
+    "typical_duration_hours": 336,
+    "historical_reliability": 0.76
+  },
+  {
+    "id": "quarterly_futures_expiry",
+    "name": "Quarterly Options/Futures Expiry → Volatility Spike",
+    "description": "Large options expiry events (especially quarterly CME, Deribit) cause pin-risk near max-pain price followed by post-expiry volatility.",
+    "trigger_condition": "Quarterly futures/options expiry (last Friday of March, June, September, December)",
+    "expected_impact": "neutral",
+    "affected_assets": ["BTC", "ETH"],
+    "typical_duration_hours": 48,
+    "historical_reliability": 0.62
+  },
+  {
+    "id": "on_chain_active_address_surge",
+    "name": "Active Address Surge → Network Demand Signal",
+    "description": "A sharp increase in daily active addresses indicates growing user demand for the network and often precedes price appreciation.",
+    "trigger_condition": "7-day average active addresses > 3-month average by 40%+",
+    "expected_impact": "positive",
+    "affected_assets": ["BTC", "ETH", "SOL"],
+    "typical_duration_hours": 168,
+    "historical_reliability": 0.61
+  },
+  {
+    "id": "nft_volume_surge",
+    "name": "NFT Market Boom → ETH Gas Demand → ETH Price Lift",
+    "description": "Surging NFT trading volumes on Ethereum drive up gas fees and ETH burn rate (EIP-1559), reducing circulating supply and supporting price.",
+    "trigger_condition": "OpenSea / Blur 7-day volume > $500M",
+    "expected_impact": "positive",
+    "affected_assets": ["ETH"],
+    "typical_duration_hours": 336,
+    "historical_reliability": 0.58
+  },
+  {
+    "id": "l2_adoption_surge",
+    "name": "L2 Adoption Surge → ETH Sequencer Revenue Rise",
+    "description": "Growth in L2 activity (Arbitrum, Optimism, Base) increases ETH fee burns and sequencer revenue, improving ETH fundamentals.",
+    "trigger_condition": "L2 combined TVL increase > 30% in 30 days",
+    "expected_impact": "positive",
+    "affected_assets": ["ETH", "ARB", "OP"],
+    "typical_duration_hours": 720,
+    "historical_reliability": 0.60
+  },
+  {
+    "id": "whale_accumulation",
+    "name": "Whale Accumulation → Price Support",
+    "description": "On-chain data showing wallets > 1000 BTC increasing balances indicates smart-money accumulation, historically preceding price appreciation.",
+    "trigger_condition": "Whale wallets (>1000 BTC) balance increase > 5% in 14 days",
+    "expected_impact": "positive",
+    "affected_assets": ["BTC"],
+    "typical_duration_hours": 336,
+    "historical_reliability": 0.67
+  },
+  {
+    "id": "staking_yield_compression",
+    "name": "Staking Yield Compression → Capital Seeks Higher Yield",
+    "description": "When ETH staking yields compress below 3%, yield-seeking capital migrates to higher-yield DeFi protocols or alt-L1 staking, pressuring ETH.",
+    "trigger_condition": "ETH staking APR < 3% for 30+ days",
+    "expected_impact": "neutral",
+    "affected_assets": ["ETH", "SOL", "AVAX"],
+    "typical_duration_hours": 720,
+    "historical_reliability": 0.54
+  },
+  {
+    "id": "protocol_governance_vote",
+    "name": "Key Protocol Governance Vote → Token Price Reaction",
+    "description": "High-stakes governance votes (fee switches, tokenomics changes, treasury deployments) create binary outcomes that sharply move the protocol's native token.",
+    "trigger_condition": "Protocol governance vote passing or failing with > $100M TVL at stake",
+    "expected_impact": "neutral",
+    "affected_assets": ["UNI", "AAVE", "CRV"],
+    "typical_duration_hours": 48,
+    "historical_reliability": 0.60
+  },
+  {
+    "id": "btc_correlation_break",
+    "name": "BTC Correlation Break → Alt-Independent Move",
+    "description": "When BTC's 30-day correlation with S&P 500 falls below 0.2, crypto decouples from macro and alts can move independently on fundamentals.",
+    "trigger_condition": "BTC-SPX 30d rolling correlation < 0.20",
+    "expected_impact": "positive",
+    "affected_assets": ["ETH", "SOL", "AVAX", "ARB"],
+    "typical_duration_hours": 720,
+    "historical_reliability": 0.55
+  },
+  {
+    "id": "btc_realized_price_test",
+    "name": "BTC Tests Realised Price → Historical Bottom Support",
+    "description": "BTC touching its realised price (average on-chain cost basis) has historically been a strong accumulation zone and mean-reversion signal.",
+    "trigger_condition": "BTC spot price within 5% of Realised Price",
+    "expected_impact": "positive",
+    "affected_assets": ["BTC"],
+    "typical_duration_hours": 720,
+    "historical_reliability": 0.71
+  },
+  {
+    "id": "usdc_redemption_surge",
+    "name": "USDC Mass Redemptions → Liquidity Tightening",
+    "description": "A large spike in USDC-to-USD redemptions reduces stablecoin liquidity available for crypto purchases, acting as a temporary demand suppressor.",
+    "trigger_condition": "USDC supply decline > 5% in 7 days",
+    "expected_impact": "negative",
+    "affected_assets": ["BTC", "ETH"],
+    "typical_duration_hours": 168,
+    "historical_reliability": 0.57
+  },
+  {
+    "id": "sol_ecosystem_catalyst",
+    "name": "Solana Ecosystem Catalyst → SOL Outperformance",
+    "description": "Major Solana ecosystem launches (new DeFi protocol, NFT project, PayFi partnership) drive SOL demand as fees burn and users onboard.",
+    "trigger_condition": "Solana major dApp launch or partnership with user-base > 1M",
+    "expected_impact": "positive",
+    "affected_assets": ["SOL"],
+    "typical_duration_hours": 168,
+    "historical_reliability": 0.63
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "omeswap-contracts",
+  "version": "1.0.0",
+  "description": "OmeSwap AMM contracts for HashKey Chain",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy-tokens": "npx hardhat run scripts/deployTokens.js --network hashkeyTestnet",
+    "deploy": "npx hardhat run scripts/deploy.js --network hashkeyTestnet",
+    "add-liquidity": "npx hardhat run scripts/addLiquidity.js --network hashkeyTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}

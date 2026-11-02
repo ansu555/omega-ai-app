@@ -1,0 +1,26 @@
+{
+  "name": "omeswap-realtime-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Real-time on-chain market data service for Omeswap on HashKey Chain. One WebSocket subscription to HashKey Chain, in-memory pool state + graph, broadcasts price/reserves/trades and serves swap-route quotes.",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "viem": "^2.44.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

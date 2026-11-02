@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: omeswap-realtime-service
+    env: docker
+    rootDir: realtime-service
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: HASHKEY_NETWORK
+        value: mainnet
+      - key: HASHKEY_RPC
+        value: https://mainnet.hsk.xyz
+      - key: HASHKEY_WSS
+        value: wss://mainnet.hsk.xyz/ws

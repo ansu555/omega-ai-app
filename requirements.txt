@@ -1,0 +1,40 @@
+# Phase 0 — Core infrastructure
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+redis>=5.0.0
+sqlalchemy[asyncio]>=2.0.0
+asyncpg>=0.29.0
+litellm>=1.40.0            # unified LLM client — Anthropic, OpenAI, Gemini, etc.
+python-dotenv>=1.0.0
+httpx>=0.27.0
+
+# Phase 1 — Data ingestion
+aiohttp>=3.9.0
+newsapi-python>=0.2.7
+websockets>=12.0
+
+# Phase 2 — Regime detection
+hmmlearn>=0.3.2
+numpy>=1.26.0
+scipy>=1.13.0
+
+# Phase 3 — Signal agent
+pandas>=2.2.0
+pandas-ta>=0.3.14b0
+transformers>=4.41.0
+torch>=2.3.0
+
+# Phase 4 — Graph agent (no extra deps — static dict in MVP)
+
+# Phase 6 — Orchestrator
+langgraph>=0.1.0
+langchain-core>=0.2.0
+
+# Phase 7 — Execution agent (DEX via web3.py)
+web3>=6.0.0
+eth-account>=0.11.0
+
+# Phase 8 — API, WebSocket & Conversation Layer
+anthropic>=0.97.0

@@ -1,0 +1,130 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "addLiquidity.js",
+      "file_type": "code",
+      "source_file": "addLiquidity.js",
+      "source_location": "L1",
+      "id": "addliquidity_js",
+      "community": 0,
+      "norm_label": "addliquidity.js"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "addLiquidity.js",
+      "source_location": "L3",
+      "id": "addliquidity_main",
+      "community": 0,
+      "norm_label": "main()"
+    },
+    {
+      "label": "multiHopSwap.js",
+      "file_type": "code",
+      "source_file": "multiHopSwap.js",
+      "source_location": "L1",
+      "id": "multihopswap_js",
+      "community": 1,
+      "norm_label": "multihopswap.js"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "multiHopSwap.js",
+      "source_location": "L3",
+      "id": "multihopswap_main",
+      "community": 1,
+      "norm_label": "main()"
+    },
+    {
+      "label": "quickStart.js",
+      "file_type": "code",
+      "source_file": "quickStart.js",
+      "source_location": "L1",
+      "id": "quickstart_js",
+      "community": 2,
+      "norm_label": "quickstart.js"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "quickStart.js",
+      "source_location": "L3",
+      "id": "quickstart_main",
+      "community": 2,
+      "norm_label": "main()"
+    },
+    {
+      "label": "swap.js",
+      "file_type": "code",
+      "source_file": "swap.js",
+      "source_location": "L1",
+      "id": "swap_js",
+      "community": 3,
+      "norm_label": "swap.js"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "swap.js",
+      "source_location": "L3",
+      "id": "swap_main",
+      "community": 3,
+      "norm_label": "main()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "addLiquidity.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "addliquidity_js",
+      "_tgt": "addliquidity_main",
+      "source": "addliquidity_js",
+      "target": "addliquidity_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "multiHopSwap.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "multihopswap_js",
+      "_tgt": "multihopswap_main",
+      "source": "multihopswap_js",
+      "target": "multihopswap_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "quickStart.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "quickstart_js",
+      "_tgt": "quickstart_main",
+      "source": "quickstart_js",
+      "target": "quickstart_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "swap.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "swap_js",
+      "_tgt": "swap_main",
+      "source": "swap_js",
+      "target": "swap_main",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
