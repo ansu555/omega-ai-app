@@ -137,3 +137,8 @@ changes: produced 2:56 mainnet demo video (voiceover + burned-in subtitles) in d
 user: ansu555
 branch: main
 changes: extended demo video to 3:56 — added the full 7-agent research run and a one-prompt builder scene (5 blocks/3 edges from one sentence), ElevenLabs Brian narration, speed-ramped cuts; harness moved to demo/build/
+
+[2026-11-03 02:20]
+user: ansu555
+branch: main
+changes: verified 3 real HashKey mainnet txs (2 HSK->USDT swaps) + compiled full contract/token/pool/bridge address block for DoraHacks submission
