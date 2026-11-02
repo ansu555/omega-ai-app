@@ -117,3 +117,23 @@ changes: HashKey mainnet is now the default trading chain; added native HSK swap
 user: ansu555
 branch: main
 changes: agents can now actually trade — fixed execution agent's hardcoded USDC stable leg (dead USDC.e) to resolve USDT from registry; added live six-agent pipeline dock under terminal chart; replaced synthetic HashKey candles with real OHLCV rebuilt from HSKSwap V3 Swap events
+
+[2026-11-02 21:16]
+user: ansu555
+branch: main
+changes: reset git history and published to new public repo ansu555/omega-ai-app as 19 backdated commits; deployed production to Vercel (aniks-projects-ec6850d2/omega-ai-app) at omega-ai-app.vercel.app
+
+[2026-11-02 22:27]
+user: ansu555
+branch: main
+changes: built demo-video capture harness (playwright + injected EIP-1193 wallet on HashKey mainnet); recorded landing/onboarding/explore/terminal scenes; verified live HSK->USDT swap tx 0xacd2c871
+
+[2026-11-02 23:30]
+user: ansu555
+branch: main
+changes: produced 2:56 mainnet demo video (voiceover + burned-in subtitles) in demo/
+
+[2026-11-03 02:05]
+user: ansu555
+branch: main
+changes: extended demo video to 3:56 — added the full 7-agent research run and a one-prompt builder scene (5 blocks/3 edges from one sentence), ElevenLabs Brian narration, speed-ramped cuts; harness moved to demo/build/
