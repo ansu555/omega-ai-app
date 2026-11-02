@@ -1,0 +1,40 @@
+# Graph Report - /home/anik2003/Documents/omeswap/components/transaction  (2026-04-18)
+
+## Corpus Check
+- Corpus is ~1,811 words - fits in a single context window. You may not need a graph.
+
+## Summary
+- 7 nodes · 4 edges · 3 communities detected
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- Token cost: 0 input · 0 output
+
+## Community Hubs (Navigation)
+- [[_COMMUNITY_Analytics Sparkline|Analytics Sparkline]]
+- [[_COMMUNITY_Transaction Table|Transaction Table]]
+- [[_COMMUNITY_Transaction Filters|Transaction Filters]]
+
+## God Nodes (most connected - your core abstractions)
+
+## Surprising Connections (you probably didn't know these)
+- None detected - all connections are within the same source files.
+
+## Communities
+
+### Community 0 - "Analytics Sparkline"
+Cohesion: 0.67
+Nodes (0): 
+
+### Community 1 - "Transaction Table"
+Cohesion: 0.67
+Nodes (0): 
+
+### Community 2 - "Transaction Filters"
+Cohesion: 1.0
+Nodes (0): 
+
+## Knowledge Gaps
+- **Thin community `Transaction Filters`** (1 nodes): `TransactionFilters.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+
+## Suggested Questions
+_Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges._

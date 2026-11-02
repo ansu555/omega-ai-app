@@ -1,0 +1,121 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "TransactionAnalytics.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionAnalytics.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_transaction_transactionanalytics_tsx",
+      "community": 0,
+      "norm_label": "transactionanalytics.tsx"
+    },
+    {
+      "label": "generateSmoothPath()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionAnalytics.tsx",
+      "source_location": "L48",
+      "id": "transactionanalytics_generatesmoothpath",
+      "community": 0,
+      "norm_label": "generatesmoothpath()"
+    },
+    {
+      "label": "MiniSparkline()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionAnalytics.tsx",
+      "source_location": "L90",
+      "id": "transactionanalytics_minisparkline",
+      "community": 0,
+      "norm_label": "minisparkline()"
+    },
+    {
+      "label": "TransactionFilters.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionFilters.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_transaction_transactionfilters_tsx",
+      "community": 2,
+      "norm_label": "transactionfilters.tsx"
+    },
+    {
+      "label": "TransactionTable.tsx",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionTable.tsx",
+      "source_location": "L1",
+      "id": "home_anik2003_documents_omeswap_components_transaction_transactiontable_tsx",
+      "community": 1,
+      "norm_label": "transactiontable.tsx"
+    },
+    {
+      "label": "getTypeConfig()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionTable.tsx",
+      "source_location": "L38",
+      "id": "transactiontable_gettypeconfig",
+      "community": 1,
+      "norm_label": "gettypeconfig()"
+    },
+    {
+      "label": "copyToClipboard()",
+      "file_type": "code",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionTable.tsx",
+      "source_location": "L79",
+      "id": "transactiontable_copytoclipboard",
+      "community": 1,
+      "norm_label": "copytoclipboard()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionAnalytics.tsx",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_transaction_transactionanalytics_tsx",
+      "_tgt": "transactionanalytics_generatesmoothpath",
+      "source": "home_anik2003_documents_omeswap_components_transaction_transactionanalytics_tsx",
+      "target": "transactionanalytics_generatesmoothpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionAnalytics.tsx",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_transaction_transactionanalytics_tsx",
+      "_tgt": "transactionanalytics_minisparkline",
+      "source": "home_anik2003_documents_omeswap_components_transaction_transactionanalytics_tsx",
+      "target": "transactionanalytics_minisparkline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionTable.tsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_transaction_transactiontable_tsx",
+      "_tgt": "transactiontable_gettypeconfig",
+      "source": "home_anik2003_documents_omeswap_components_transaction_transactiontable_tsx",
+      "target": "transactiontable_gettypeconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/home/anik2003/Documents/omeswap/components/transaction/TransactionTable.tsx",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_src": "home_anik2003_documents_omeswap_components_transaction_transactiontable_tsx",
+      "_tgt": "transactiontable_copytoclipboard",
+      "source": "home_anik2003_documents_omeswap_components_transaction_transactiontable_tsx",
+      "target": "transactiontable_copytoclipboard",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
